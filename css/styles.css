@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  background: #3c3a39;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+}
