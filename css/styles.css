@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .main-header {
   display: flex;
   flex-direction: row;
@@ -10,4 +9,57 @@
   justify-content: space-around;
   align-items: center;
   height: 48px;
+}
+.dev-name {
+  padding: 10px 0px;
+  flex-basis: 150px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  align-items: flex-start;
+  background: #1c1a19;
+}
+.title {
+  height: 124px;
+  font-family: "Crete Round";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin: 5px;
+}
+.supporting {
+  color: #fff5e1;
+  height: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 10px;
+}
+.description {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  height: 123px;
+  margin: 10px;
+  line-height: 24px;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: flex-start;
+  padding: 0px;
+}
+.art {
+  align-self: flex-end;
 }
