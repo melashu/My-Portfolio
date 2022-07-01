@@ -63,9 +63,8 @@
   flex-direction: row;
   height: 40px;
   justify-content: flex-start;
+
 }
-
-.arts {
-  align-self: flex-end;
-
+.social-media li{
+list-style: none;
 }
