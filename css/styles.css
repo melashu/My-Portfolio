@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 .main-header {
   display: flex;
   flex-direction: row;
@@ -29,21 +28,28 @@
   padding: 120px 24px;
   align-items: flex-start;
   background: #1c1a19;
+  background-image: url("../image/arts.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: right 1px bottom -41px;
 }
 
 .title {
-  height: 124px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Crete Round";
+  font-style: normal;
   font-size: 56px;
   line-height: 64px;
+  text-align: left;
+  vertical-align: top;
   letter-spacing: 0.37px;
   color: #ff6b00;
-  margin: 5px;
+  /* height: 124px; */
 }
 
 .supporting {
   color: #fff5e1;
+  font-family: 'Roboto';
   height: 20px;
   font-weight: 700;
   font-size: 24px;
