@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  background: #3c3a39;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 48px;
+}
+
+.dev-name {
+  padding: 10px 0;
+  flex-basis: 150px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  padding: 120px 24px;
+  height: 100%;
+  align-items: flex-start;
+  background: #1c1a19;
+  background-image: url("../image/arts.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: right 1px bottom -41px;
+}
+
+.title {
+  font-weight: 400;
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.37px;
+  color: #f86c0d;
+}
+
+.supporting {
+  color: #fff5e1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: left;
+  vertical-align: baseline;
+  margin: 12px 0;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 200;
+  line-height: 24px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  height: 40px;
+  justify-content: flex-start;
+}
+
+.social-media li {
+  list-style: none;
+}
