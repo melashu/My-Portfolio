@@ -34,6 +34,7 @@
 .title {
   height: 124px;
   font-weight: 400;
+  font-family: 'Crete Round';
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -47,6 +48,7 @@
   font-weight: 700;
   font-size: 24px;
   margin: 10px;
+  font-family: 'Roboto';
 }
 
 .description {
