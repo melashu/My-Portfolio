@@ -19,6 +19,7 @@
   font-size: 18px;
   line-height: 24px;
   color: #fff;
+  text-decoration: none;
 }
 
 .headline {
@@ -65,4 +66,5 @@
 
 .arts {
   align-self: flex-end;
+
 }
