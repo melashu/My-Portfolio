@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .main-header {
   display: flex;
   flex-direction: row;
@@ -44,8 +45,7 @@
   text-align: left;
   vertical-align: top;
   letter-spacing: 0.37px;
-  color: #ff6b00;
-  /* height: 124px; */
+  color: #FF6B00;
 }
 
 .supporting {
