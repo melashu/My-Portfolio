@@ -38,19 +38,19 @@
 
 .title {
   font-weight: 400;
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-size: 56px;
   line-height: 64px;
   text-align: left;
   vertical-align: top;
   letter-spacing: 0.37px;
-  color: #F86C0D;
+  color: #f86c0d;
 }
 
 .supporting {
   color: #fff5e1;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
@@ -60,7 +60,7 @@
 }
 
 .description {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: #fff;
   font-weight: 400;
