@@ -34,7 +34,7 @@
 .title {
   height: 124px;
   font-weight: 400;
-  font-family: 'Crete Round';
+  font-family: "Roboto", sans-serif;
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
@@ -48,7 +48,7 @@
   font-weight: 700;
   font-size: 24px;
   margin: 10px;
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
 }
 
 .description {
@@ -65,8 +65,8 @@
   flex-direction: row;
   height: 40px;
   justify-content: flex-start;
-
 }
-.social-media li{
-list-style: none;
+
+.social-media li {
+  list-style: none;
 }
