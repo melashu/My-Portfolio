@@ -395,3 +395,21 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+footer{
+  display:flex;
+  justify-content: center;
+}
+.footer-social-media{
+ display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  height: 40px;
+  justify-content: flex-start;
+  color: #1c1a19;
+}
+
+.footer-social-media img{
+  background-color: #091e42;
+  margin-right: 10px;
+}
