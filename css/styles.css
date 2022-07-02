@@ -80,3 +80,175 @@
 .social-media li {
   list-style: none;
 }
+
+.work {
+  padding: 120px 0;
+  display: grid;
+  align-items: center;
+}
+
+.work-header {
+  margin-bottom: 80px;
+  padding: 0 24px;
+}
+
+.work-header .title {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 28px;
+  color: #1c1a19;
+  height: 83px;
+}
+
+.work-section {
+  display: grid;
+  row-gap: 24px;
+}
+
+.feature-section {
+  display: grid;
+  align-items: flex-start;
+  padding: 0 24px;
+  row-gap: 12px;
+}
+
+.feature-image {
+  margin-bottom: 12px;
+  width: 327px;
+}
+
+.story-title {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: #091e42;
+  line-height: 44px;
+}
+
+.story-description {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+ul {
+  list-style: none;
+}
+
+.tools {
+  display: flex;
+  width: 297px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tools li {
+  padding: 10px 12px;
+  text-align: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  border: 1px solid #8993a4;
+}
+
+.story-button {
+  width: 124px;
+  height: 48px;
+  padding: 12px;
+  border: none;
+  background: #ff6b00;
+  color: #fff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.card-section {
+  padding: 0 24px;
+  display: grid;
+  row-gap: 24px;
+}
+
+.card {
+  color: #fff;
+  background-image: url("../image/background.png");
+  background-size: cover;
+  height: 386px;
+}
+
+.card-body {
+  padding: 8px 16px;
+  margin-top: 76px;
+  display: grid;
+  row-gap: 12px;
+}
+
+.card-title {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+}
+
+.card-description {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+}
+
+.tech-tools {
+  display: flex;
+  width: 236px;
+  justify-content: space-between;
+}
+
+.tech-tools li {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 10px 12px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.card-button {
+  height: 48px;
+  width: 327px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  border: none;
+  background-color: #ff6b00;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
