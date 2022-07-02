@@ -168,7 +168,7 @@ ul {
 .story-button {
   width: 124px;
   height: 48px;
-  padding: 12px;
+  padding: 10px;
   border: none;
   background: #ff6b00;
   color: #fff;
@@ -178,6 +178,22 @@ ul {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.story-button:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.story-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: none;
+}
+.story-button:active {
+  background-color: #e05304;
+  color: #fff;
 }
 
 .card-section {
@@ -253,6 +269,23 @@ ul {
   color: #fff;
 }
 
+.card-button:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.card-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: none;
+}
+
+.card-button:active {
+  background-color: #e05304;
+  color: #fff;
+}
+
 .about {
   padding: 120px 24px;
   background-color: #1c1a19;
@@ -302,6 +335,23 @@ ul {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+.about-me-button:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.about-me-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: none;
+}
+
+.about-me-button:active {
+  background-color: #e05304;
+  color: #fff;
 }
 
 .about-skill {
@@ -391,6 +441,23 @@ ul {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.submit-button:hover {
+  border: 1px solid #f55800;
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.submit-button:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
+  border: none;
+}
+
+.submit-button:active {
+  background-color: #e05304;
   color: #fff;
 }
 
