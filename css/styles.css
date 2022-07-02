@@ -172,7 +172,7 @@ ul {
   border: none;
   background: #ff6b00;
   color: #fff;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -206,7 +206,7 @@ ul {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .card-description {
@@ -215,7 +215,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
   letter-spacing: 0.03em;
 }
 
@@ -233,15 +233,15 @@ ul {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .card-button {
   height: 48px;
   width: 327px;
-  left: 0px;
-  top: 0px;
-  border-radius: 0px;
+  left: 0;
+  top: 0;
+  border-radius: 0;
   border: none;
   background-color: #ff6b00;
   font-family: "Inter", sans-serif;
@@ -265,7 +265,6 @@ ul {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  /* margin-bottom: 120px; */
   background-image: url("../image/about.png");
   background-repeat: no-repeat;
   background-position: bottom -10px right 7px;
@@ -273,7 +272,7 @@ ul {
 }
 
 .about-me-title {
-  font-family: "Crete Round";
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -341,7 +340,6 @@ ul {
 }
 
 .form-title {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -393,15 +391,16 @@ ul {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
 }
 
-footer{
-  display:flex;
+footer {
+  display: flex;
   justify-content: center;
 }
-.footer-social-media{
- display: flex;
+
+.footer-social-media {
+  display: flex;
   flex-direction: row;
   margin-top: 12px;
   height: 40px;
@@ -409,7 +408,7 @@ footer{
   color: #1c1a19;
 }
 
-.footer-social-media img{
+.footer-social-media img {
   background-color: #091e42;
   margin-right: 10px;
 }
