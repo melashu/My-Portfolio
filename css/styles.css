@@ -332,3 +332,66 @@ ul {
   font-size: 32px;
   line-height: 44px;
 }
+
+.form-section {
+  background: #fff;
+  padding: 120px 24px;
+  display: grid;
+  row-gap: 58px;
+}
+
+.form-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.form input {
+  height: 48px;
+  padding: 5px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #dbd8d7;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+.form textarea {
+  padding: 12px;
+  width: 303px;
+  background: #fbf8f7;
+}
+
+.submit-button {
+  align-self: center;
+  width: 131px;
+  padding: 12px;
+  background: #ff6b00;
+  height: 48px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
