@@ -409,7 +409,7 @@ ul {
 
 .form input {
   box-sizing: border-box;
-  width:327px;
+  width: 327px;
   height: 48px;
   padding: 5px;
   border-top: none;
@@ -417,7 +417,6 @@ ul {
   border-left: none;
   border-bottom: 1px solid #dbd8d7;
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -455,6 +454,10 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+}
+
+.form textarea:hover {
+  border: 2px solid steelblue;
 }
 
 .submit-button:hover {
