@@ -408,6 +408,8 @@ ul {
 }
 
 .form input {
+  box-sizing: border-box;
+  width:327px;
   height: 48px;
   padding: 5px;
   border-top: none;
@@ -436,7 +438,6 @@ ul {
   text-align: left;
   box-sizing: border-box;
   border: none;
-
 }
 
 .submit-button {
