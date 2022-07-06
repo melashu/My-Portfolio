@@ -44,3 +44,5 @@ Feel free to check the [issues page](https://github.com/melashu/My-Portfolio/iss
 - To Microverse Teams
 - To Code Reviewer
 
+## License 
+📝This project is [MIT] (MIT.md) licensed
