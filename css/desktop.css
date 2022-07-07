@@ -20,17 +20,20 @@ body {
   text-align: center;
   vertical-align: middle;
   line-height: 20px;
+  letter-spacing: 0.03em;
 }
 
 nav ul {
   display: flex;
   column-gap: 20px;
 }
+
 nav li {
   padding: 10px 12px;
   text-align: center;
   vertical-align: center;
 }
+
 nav a {
   text-decoration: none;
   color: #fff;
@@ -55,20 +58,20 @@ nav a {
   padding: 0 36px;
 }
 
+.headline-top-section {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  padding: 192px 0;
+}
+
 .social-media {
   order: -1;
   align-self: flex-start;
   display: flex;
   flex-direction: column;
-  padding: 300px 0;
+  padding: 360px 0;
   justify-content: center;
-}
-
-.headline-top-section {
-  display: flex;
-  flex-direction: column;
-  width: 566px;
-  padding: 192px 0;
 }
 
 .title {
@@ -125,16 +128,17 @@ nav a {
 }
 
 .feature-image {
-  grid-column: 1 /5;
+  grid-column: 1 /6;
   /* width: 684px; */
 }
 
 .feature-image img {
-  width: 684px;
+  width: 660px;
+  /* grid-column: 1 /5; */
 }
 
 .story-section {
-  grid-column: 5/13;
+  grid-column: 8/13;
   width: 448px;
   display: flex;
   flex-direction: column;
