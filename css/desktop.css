@@ -107,6 +107,7 @@ nav a {
   align-items: baseline;
   column-gap: 24px;
   margin-top: 135px;
+  margin-bottom: 80px;
 }
 
 .work-header .title {
@@ -262,7 +263,7 @@ nav a {
 }
 
 .form-title {
-  grid-column: 2/6;
+  grid-column: 2/5;
 }
 
 .form {
@@ -271,6 +272,10 @@ nav a {
 
 .form input {
   width: 684px;
+}
+
+.form input:focus {
+  border: none;
 }
 
 .form textarea {
