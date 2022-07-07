@@ -2,6 +2,9 @@ body {
   display: grid;
 }
 
+main{
+  width: 100vw;
+}
 .menu-icon {
   display: none;
 }
@@ -128,7 +131,7 @@ nav a {
 }
 
 .feature-image {
-  grid-column: 1 /6;
+  grid-column: 1 /4;
 }
 
 .feature-image img {
@@ -164,6 +167,7 @@ nav a {
 .card {
   width: 369px;
   height: 435px;
+  padding: 8px 16px;
 }
 
 .card-body {
@@ -174,15 +178,23 @@ nav a {
 .card3 .card-button,
 .card4 .card-button,
 .card5 .card-button,
-.card6 .card-button,
-.card1 .card-body {
+.card6 .card-button {
   display: none;
 }
 
-.card1 {
+.card1 .card-body {
+  margin-top: 76px;
+}
+
+.card1:hover {
   background-image: url("../image/card1.png");
   background-repeat: no-repeat;
+  padding: 0;
   display: grid;
+}
+
+.card1:hover .card-body {
+  display: none;
 }
 
 .card1 .card-button {
@@ -193,11 +205,20 @@ nav a {
   width: auto;
 }
 
+.card1 .card-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card1 .card-button:hover a a:hover {
+  text-decoration: none;
+  color: #f55800;
+}
+
 .card2,
 .card5 {
   background-image: url("../image/card2.png");
   background-repeat: no-repeat;
-  padding: 8px 16px;
 }
 
 .card2 .card-body {
@@ -208,11 +229,6 @@ nav a {
 .card6 {
   background-image: url("../image/card3.png");
   background-repeat: no-repeat;
-  padding: 8px 16px;
-}
-
-.card4 {
-  padding: 8px 16px;
 }
 
 .about {
