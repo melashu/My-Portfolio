@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+ nav ul{
+  display: none;
+ }
 .main-header {
   display: flex;
   flex-direction: row;
