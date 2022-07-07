@@ -83,6 +83,7 @@ nav a {
 .description {
   font-size: 20px;
   line-height: 32px;
+  font-style: regular;
   letter-spacing: 0.03em;
   font-weight: 400;
 }
@@ -96,13 +97,46 @@ nav a {
 .work-header {
   display: flex;
   column-gap: 24px;
+  margin: 0;
 }
 
 .work-header .title {
-  width: 315px;
+  font-size: 40px;
 }
 
 .work-header hr {
   width: 794px;
   height: 1px;
+}
+
+.feature-section {
+  display: flex;
+  column-gap: 24px;
+}
+
+.feature-image {
+  width: 684px;
+}
+
+.feature-image img {
+  width: 684px;
+}
+
+.story-section {
+  width: 448px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.story-title {
+  font-size: 45px;
+  line-height: 52px;
+}
+
+.story-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #091e42;
 }
