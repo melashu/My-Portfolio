@@ -2,9 +2,10 @@ body {
   display: grid;
 }
 
-main{
+main {
   width: 100vw;
 }
+
 .menu-icon {
   display: none;
 }
@@ -193,6 +194,10 @@ nav a {
   display: grid;
 }
 
+.card2 .card-body {
+  margin-top: 170px;
+}
+
 .card1:hover .card-body {
   display: none;
 }
@@ -219,10 +224,6 @@ nav a {
 .card5 {
   background-image: url("../image/card2.png");
   background-repeat: no-repeat;
-}
-
-.card2 .card-body {
-  margin-top: 170px;
 }
 
 .card3,
