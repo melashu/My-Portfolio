@@ -122,6 +122,12 @@ nav ul {
   width: 327px;
 }
 
+.story-section{
+display: flex;
+flex-direction: column;
+row-gap: 24px;
+}
+
 .story-title {
   font-family: "Crete Round", serif;
   font-style: normal;
