@@ -97,7 +97,7 @@ nav a {
 
 .work {
   margin: 0 118px;
-  padding: 130px 24px;
+  padding: 0 24px;
 }
 
 .work-header {
@@ -106,7 +106,7 @@ nav a {
   justify-content: center;
   align-items: baseline;
   column-gap: 24px;
-  margin-top: 130px;
+  margin-top: 135px;
 }
 
 .work-header .title {
@@ -129,12 +129,10 @@ nav a {
 
 .feature-image {
   grid-column: 1 /6;
-  /* width: 684px; */
 }
 
 .feature-image img {
   width: 660px;
-  /* grid-column: 1 /5; */
 }
 
 .story-section {
@@ -185,8 +183,8 @@ nav a {
   background-image: url("../image/card1.png");
   background-repeat: no-repeat;
   display: grid;
-  padding: 8px 16px;
 }
+
 .card1 .card-button {
   align-self: flex-end;
   box-sizing: border-box;
@@ -215,6 +213,10 @@ nav a {
 
 .card4 {
   padding: 8px 16px;
+}
+
+.about {
+  padding: 136px 0;
 }
 
 .about-me {
@@ -265,6 +267,15 @@ nav a {
 
 .form {
   grid-column: 6/13;
+}
+
+.form input {
+  width: 684px;
+}
+
+.form textarea {
+  height: 114px;
+  width: 684px;
 }
 
 .submit-button {
