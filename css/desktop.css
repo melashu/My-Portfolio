@@ -1,3 +1,7 @@
+body {
+  display: grid;
+}
+
 .menu-icon {
   display: none;
 }
@@ -90,23 +94,29 @@ nav a {
 
 .work {
   margin: 0 118px;
-  border: 2px solid salmon;
   padding: 130px 24px;
 }
 
 .work-header {
   display: flex;
+  justify-self: start;
+  justify-content: center;
+  align-items: baseline;
   column-gap: 24px;
-  margin: 0;
+  margin-top: 130px;
 }
 
 .work-header .title {
   font-size: 40px;
+  margin: 10px 10px;
 }
 
 .work-header hr {
   width: 794px;
+  margin: 8px 0;
   height: 1px;
+
+  padding-right: 100px;
 }
 
 .feature-section {
@@ -139,4 +149,65 @@ nav a {
   font-size: 20px;
   line-height: 28px;
   color: #091e42;
+}
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+
+.card {
+  width: 369px;
+  height: 435px;
+}
+
+.card-body {
+  margin-top: 170px;
+}
+
+.card2 .card-button,
+.card3 .card-button,
+.card4 .card-button,
+.card5 .card-button,
+.card6 .card-button,
+.card1 .card-body {
+  display: none;
+}
+
+.card1 {
+  background-image: url("../image/card1.png");
+  background-repeat: no-repeat;
+  display: grid;
+  padding: 8px 16px;
+
+}
+.card1 .card-button {
+  align-self: flex-end;
+  box-sizing: border-box;
+  height: 58px;
+  padding: 8px 16px;
+  width: auto;
+}
+
+.card2,
+.card5 {
+  background-image: url("../image/card2.png");
+  background-repeat: no-repeat;
+  padding: 8px 16px;
+}
+
+.card2 .card-body {
+  margin-top: 170px;
+}
+
+.card3,
+.card6 {
+  background-image: url("../image/card3.png");
+  background-repeat: no-repeat;
+  padding: 8px 16px;
+}
+
+.card4 {
+  padding: 8px 16px;
 }
