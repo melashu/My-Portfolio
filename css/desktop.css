@@ -246,3 +246,23 @@ nav a {
 .tech-freamwork li {
   text-align: left;
 }
+
+.form-section {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 130px 0;
+  column-gap: 48px;
+  margin: 0 auto;
+}
+
+.form-title {
+  grid-column: 2/6;
+}
+
+.form {
+  grid-column: 6/13;
+}
+
+.submit-button {
+  align-self: flex-start;
+}
