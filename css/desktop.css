@@ -290,6 +290,8 @@ nav a {
 .about-skill {
   display: flex;
   justify-content: space-around;
+  padding: 141px 141px;
+  height: auto;
 }
 
 .tech-language,
