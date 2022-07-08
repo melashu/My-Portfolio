@@ -43,6 +43,12 @@ Feel free to check the [issues page](https://github.com/melashu/My-Portfolio/iss
 - To My coding partner  [Ralph03](https://github.com/eerapheal) and  [Shuja](https://github.com/shuja-shah)
 - To Microverse Teams
 - To Code Reviewer
+## Screenshot 
+![2022-07-08_14-45-20](https://user-images.githubusercontent.com/30173722/177986166-14fc0215-0d19-43b8-a757-a93c6886defb.png)
+### My Project
+![2022-07-08_14-46-47](https://user-images.githubusercontent.com/30173722/177986320-8d8a1e4d-1088-4284-b407-ab643c9aff0f.png)
+### About Me
+![2022-07-08_14-50-07](https://user-images.githubusercontent.com/30173722/177986759-f6fbeeba-36a0-46ad-b4b1-f735b7abfb58.png)
 
 ## License 
 📝 This project is [MIT](MIT.md) licensed
