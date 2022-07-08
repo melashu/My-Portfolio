@@ -127,13 +127,13 @@ nav a {
 }
 
 .feature-section {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   column-gap: 24px;
 }
 
 .feature-image {
-  width: 50%;
+  width: 100%;
 }
 
 .feature-image img {
@@ -141,7 +141,7 @@ nav a {
 }
 
 .story-section {
-  grid-column: 8/13;
+  /* grid-column: 8/13; */
   width: 448px;
   display: flex;
   flex-direction: column;
