@@ -3,6 +3,22 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: none;
+}
+
+.desk-card-title {
+  display: none;
+}
+
 .main-header {
   display: flex;
   flex-direction: row;
@@ -88,7 +104,6 @@
 }
 
 .work-header {
-  margin-bottom: 80px;
   padding: 0 24px;
 }
 
@@ -121,6 +136,12 @@
   width: 327px;
 }
 
+.story-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
 .story-title {
   font-family: "Crete Round", serif;
   font-style: normal;
@@ -137,10 +158,6 @@
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-}
-
-ul {
-  list-style: none;
 }
 
 .tools {
@@ -255,9 +272,7 @@ ul {
 
 .card-button {
   height: 48px;
-  width: 327px;
-  left: 0;
-  top: 0;
+  width: 100%;
   border-radius: 0;
   border: none;
   background-color: #ff6b00;
@@ -268,6 +283,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  display: block;
 }
 
 .card-button:hover {
@@ -456,7 +472,7 @@ ul {
   color: #fff;
 }
 
-.form textarea:hover {
+.form textarea:focus {
   border: 2px solid steelblue;
 }
 
@@ -464,6 +480,7 @@ ul {
   border: 1px solid #f55800;
   background-color: #fff5e1;
   color: #f55800;
+  width: 135px;
 }
 
 .submit-button:disabled {
