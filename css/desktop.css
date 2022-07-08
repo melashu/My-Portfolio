@@ -192,6 +192,11 @@ nav a {
   display: grid;
 }
 
+.card3 .card-body,
+.card6 .card-body {
+  margin-top: 213px;
+}
+
 .card:hover .card-body {
   display: none;
 }
@@ -242,11 +247,6 @@ nav a {
 .card6 {
   background-image: url("../image/card3.png");
   background-repeat: no-repeat;
-}
-
-.card3 .card-body,
-.card6 .card-body {
-  margin-top: 213px;
 }
 
 .card3:hover,
