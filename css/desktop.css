@@ -202,12 +202,16 @@ nav a {
   display: none;
 }
 
-.card1 .card-button {
+.card1:hover .card-button {
+  width: 100%;
+  height: inherit;
+}
+
+.card1 a {
   align-self: flex-end;
   box-sizing: border-box;
   height: 58px;
-  padding: 8px 16px;
-  width: auto;
+  width: 100%;
 }
 
 .card1 .card-button a {
