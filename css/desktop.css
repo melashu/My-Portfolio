@@ -160,13 +160,13 @@ nav a {
 }
 
 .card-section {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
 }
 
 .card {
-  width: 369px;
+  width: 95%;
   height: 435px;
   padding: 8px 16px;
 }
