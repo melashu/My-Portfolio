@@ -1,7 +1,6 @@
 body {
   display: grid;
   width: 100vw;
-
 }
 
 main {
@@ -185,10 +184,6 @@ nav a {
   margin-top: 170px;
 }
 
-.card-button {
-  display: none;
-}
-
 .card1:hover,
 .card4:hover {
   background-image: url("../image/card1.png");
@@ -208,9 +203,15 @@ nav a {
   width: 100%;
   text-decoration: none;
   color: #fff;
+  display: none;
   padding: 10px;
   text-align: center;
   vertical-align: baseline;
+}
+
+.card-button:hover {
+  text-decoration: none;
+  color: #f55800;
 }
 
 .card:hover .card-button {
@@ -220,17 +221,11 @@ nav a {
   text-align: center;
 }
 
-.card-button:hover {
-  text-decoration: none;
-  color: #f55800;
-}
-
 .card2,
 .card5 {
   background-image: url("../image/card2.png");
   background-repeat: no-repeat;
   background-size: fill;
-
 }
 
 .card2:hover,
@@ -250,8 +245,8 @@ nav a {
 }
 
 .card3 .card-body,
-.card6 .card-body{
-margin-top: 213px;
+.card6 .card-body {
+  margin-top: 213px;
 }
 
 .card3:hover,
@@ -266,7 +261,6 @@ margin-top: 213px;
 .about {
   padding: 136px 0;
   width: 100%;
-
 }
 
 .about-me {
