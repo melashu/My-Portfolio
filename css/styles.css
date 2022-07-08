@@ -11,6 +11,10 @@ nav ul {
   display: none;
 }
 
+.desk-card-title {
+  display: none;
+}
+
 .main-header {
   display: flex;
   flex-direction: row;

@@ -1,5 +1,7 @@
 body {
   display: grid;
+  width: 100vw;
+
 }
 
 main {
@@ -162,13 +164,21 @@ nav a {
 .card-section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 24px;
 }
 
 .card {
   width: 95%;
-  height: 435px;
+  height: auto;
   padding: 8px 16px;
+  box-sizing: border-box;
+}
+
+.card-title {
+  display: none;
+}
+
+.desk-card-title {
+  display: block;
 }
 
 .card-body {
@@ -219,6 +229,8 @@ nav a {
 .card5 {
   background-image: url("../image/card2.png");
   background-repeat: no-repeat;
+  background-size: fill;
+
 }
 
 .card2:hover,
@@ -226,9 +238,9 @@ nav a {
   background-image: url("../image/card22.png");
   background-repeat: no-repeat;
   background-size: fill;
-  background-position: center center;
   padding: 0;
   display: grid;
+  background-position: left -100px top 2px;
 }
 
 .card3,
@@ -237,17 +249,24 @@ nav a {
   background-repeat: no-repeat;
 }
 
+.card3 .card-body,
+.card6 .card-body{
+margin-top: 213px;
+}
+
 .card3:hover,
 .card6:hover {
   background-image: url("../image/card33.png");
   background-repeat: no-repeat;
-  background-position: center center;
   padding: 0;
   display: grid;
+  background-position: left -100px top 10px;
 }
 
 .about {
   padding: 136px 0;
+  width: 100%;
+
 }
 
 .about-me {
