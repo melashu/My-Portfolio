@@ -175,35 +175,23 @@ nav a {
   margin-top: 170px;
 }
 
-.card2 .card-button,
-.card3 .card-button,
-.card4 .card-button,
-.card5 .card-button,
-.card6 .card-button {
+.card-button {
   display: none;
 }
 
-.card1 .card-body {
-  margin-top: 76px;
-  margin-bottom: 24px;
-}
-
-.card1:hover {
+.card1:hover,
+.card4:hover {
   background-image: url("../image/card1.png");
   background-repeat: no-repeat;
   padding: 0;
   display: grid;
 }
 
-.card2 .card-body {
-  margin-top: 170px;
-}
-
-.card1:hover .card-body {
+.card:hover .card-body {
   display: none;
 }
 
-.card1 .card-button {
+.card-button {
   align-self: flex-end;
   box-sizing: border-box;
   height: 58px;
@@ -212,15 +200,17 @@ nav a {
   color: #fff;
   padding: 10px;
   text-align: center;
+  vertical-align: baseline;
 }
 
-.card1:hover .card-button {
+.card:hover .card-button {
+  display: block;
   width: 100%;
   height: 58px;
   text-align: center;
 }
 
-.card1 .card-button:hover {
+.card-button:hover {
   text-decoration: none;
   color: #f55800;
 }
@@ -231,10 +221,29 @@ nav a {
   background-repeat: no-repeat;
 }
 
+.card2:hover,
+.card5:hover {
+  background-image: url("../image/card22.png");
+  background-repeat: no-repeat;
+  background-size: fill;
+  background-position: center center;
+  padding: 0;
+  display: grid;
+}
+
 .card3,
 .card6 {
   background-image: url("../image/card3.png");
   background-repeat: no-repeat;
+}
+
+.card3:hover,
+.card6:hover {
+  background-image: url("../image/card33.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 0;
+  display: grid;
 }
 
 .about {
