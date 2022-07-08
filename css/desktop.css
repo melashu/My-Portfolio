@@ -185,6 +185,7 @@ nav a {
 
 .card1 .card-body {
   margin-top: 76px;
+  margin-bottom: 24px;
 }
 
 .card1:hover {
@@ -204,22 +205,22 @@ nav a {
 
 .card1:hover .card-button {
   width: 100%;
-  height: inherit;
+  height: 58px;
+  text-align: center;
 }
 
-.card1 a {
+.card1 .card-button {
   align-self: flex-end;
   box-sizing: border-box;
   height: 58px;
   width: 100%;
-}
-
-.card1 .card-button a {
   text-decoration: none;
   color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
-.card1 .card-button:hover a a:hover {
+.card1 .card-button:hover {
   text-decoration: none;
   color: #f55800;
 }
