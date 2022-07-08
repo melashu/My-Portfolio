@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
 }
@@ -268,9 +272,7 @@ nav ul {
 
 .card-button {
   height: 48px;
-  width: auto;
-  left: 0;
-  top: 0;
+  width: 100%;
   border-radius: 0;
   border: none;
   background-color: #ff6b00;
@@ -281,7 +283,7 @@ nav ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  padding: 10px;
+  display: block;
 }
 
 .card-button:hover {
