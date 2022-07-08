@@ -203,12 +203,6 @@ nav a {
   display: none;
 }
 
-.card1:hover .card-button {
-  width: 100%;
-  height: 58px;
-  text-align: center;
-}
-
 .card1 .card-button {
   align-self: flex-end;
   box-sizing: border-box;
@@ -217,6 +211,12 @@ nav a {
   text-decoration: none;
   color: #fff;
   padding: 10px;
+  text-align: center;
+}
+
+.card1:hover .card-button {
+  width: 100%;
+  height: 58px;
   text-align: center;
 }
 
