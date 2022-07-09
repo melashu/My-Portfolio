@@ -78,6 +78,10 @@ nav a {
   justify-content: center;
 }
 
+.social-media li :hover{
+  transform: scale(1.5);
+}
+
 .title {
   font-weight: 400;
   font-size: 72px;
