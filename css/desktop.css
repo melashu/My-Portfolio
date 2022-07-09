@@ -137,7 +137,12 @@ nav a {
 }
 
 .feature-image img {
-  width: 100%;
+  width: 95%;
+}
+
+.feature-image img:hover {
+  transform: scale(1.1);
+  margin: 10px;
 }
 
 .story-section {
