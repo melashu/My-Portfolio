@@ -1,6 +1,6 @@
 body {
-  display: grid;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 main {
@@ -78,6 +78,10 @@ nav a {
   justify-content: center;
 }
 
+.social-media li :hover {
+  transform: scale(1.5);
+}
+
 .title {
   font-weight: 400;
   font-size: 72px;
@@ -137,7 +141,12 @@ nav a {
 }
 
 .feature-image img {
-  width: 100%;
+  width: 95%;
+}
+
+.feature-image img:hover {
+  transform: scale(1.1);
+  margin: 10px;
 }
 
 .story-section {
@@ -170,6 +179,10 @@ nav a {
   height: auto;
   padding: 8px 16px;
   box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-50px);
 }
 
 .card-title {
@@ -331,4 +344,10 @@ nav a {
 
 .submit-button {
   align-self: flex-start;
+}
+
+footer li:hover {
+  position: relative;
+  top: -30px;
+  transform: translateY(10px);
 }
