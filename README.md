@@ -30,7 +30,7 @@
 
 ## Live Demo 
 
-[My Potfolio](https://melashu.github.io/My-Portfolio/)
+[Go Live](https://melashu.github.io/My-Portfolio/)
 
 ## 🤝 Contributing
 
