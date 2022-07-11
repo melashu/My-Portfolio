@@ -28,6 +28,10 @@
 - Twitter: [@meshu102](https://twitter.com/meshu102)
 - LinkedIn:  [Linkedin](https://www.linkedin.com/in/melashu-amare-033a50b8/)
 
+## Live Demo 
+
+[Go Live](https://melashu.github.io/My-Portfolio/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
