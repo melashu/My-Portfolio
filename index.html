@@ -19,18 +19,18 @@
 </head>
 
 <body>
-    <main class="container-fluid">
-        <header class="navbar navbar-expand-lg navbar-light bg-dark p-3">
+    
+        <header class="navbar navbar-expand-lg navbar-light bg-dark p-4 fixed-top" id="header">
             <a href="#" class="navbar-brand text-white fs-2">Mehsu Amare</a>
             <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <nav class="collapse navbar-collapse justify-content-end" id="menu">
-                <ul class="navbar-nav align-items-sm-end align-items-md-center">
-                    <li class="nav-item "><a class="nav-link  text-white " href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link  text-white" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link  text-white" href="#">Contact</a></li>
+                <ul class="nav nav-pills align-items-sm-end align-items-md-center">
+                    <li class="nav-item "><a class="nav-link text-white" arial-current="page" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link  text-white" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link  text-white" href="#contact">Contact</a></li>
                     <li class="nav-item"><a class="nav-link  text-white" href="#">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -42,6 +42,7 @@
                 </ul>
             </nav>
         </header>
+        <main class="container-fluid p-0" data-bs-spy="scroll" data-bs-target="#header">
         <section class="headline">
             <div class="headline-top-section">
                 <h1 class="title">Hey There. I'm Meshu</h1>
@@ -64,7 +65,7 @@
             <h2 class="title">My Recent Works</h2>
             <hr class="line">
         </div>
-        <section class="work">
+        <section class="work" id="portfolio">
             <div class="feature-section">
                 <figure class="feature-image">
                     <img src="image/featuer.png" alt="featuer image">
@@ -201,7 +202,7 @@
                 </article>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about-me">
                 <div class="about-me-section">
                     <h2 class="about-me-title">About me</h2>
@@ -241,7 +242,7 @@
                 </ul>
             </div>
         </section>
-        <section class="form-section">
+        <section class="form-section" id="contact">
             <h2 class="form-title">
                 I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
             </h2>
