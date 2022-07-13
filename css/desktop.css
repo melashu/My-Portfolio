@@ -175,12 +175,12 @@ nav a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-/* .card {
+ .card {
   width: 95%;
   height: auto;
   padding: 8px 16px;
   box-sizing: border-box;
-} */
+} 
 
 .card:hover {
   transform: translateY(-50px);
