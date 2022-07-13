@@ -6,20 +6,20 @@
 a {
   text-decoration: none;
 }
-
+/* 
 ul {
   list-style: none;
 }
 
 nav ul {
   display: none;
-}
+}  */
 
 .desk-card-title {
   display: none;
 }
 
-.main-header {
+/* .main-header {
   display: flex;
   flex-direction: row;
   background: #3c3a39;
@@ -27,7 +27,7 @@ nav ul {
   align-items: center;
   padding: 0 15px;
   height: 48px;
-}
+} */
 
 .dev-name {
   padding: 10px 0;
