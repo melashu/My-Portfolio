@@ -221,26 +221,26 @@ nav ul {
 }
 
 .card {
-  color: #fff;
+  /* color: #fff;
   background-image: url("../image/background.png");
   background-size: cover;
-  height: 386px;
+  height: 386px; */
 }
 
 .card-body {
-  padding: 8px 16px;
+  /* padding: 8px 16px;
   margin-top: 76px;
   display: grid;
-  row-gap: 12px;
+  row-gap: 12px; */
 }
 
 .card-title {
-  font-family: "Crete Round", serif;
+  /* font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: #fff; */
 }
 
 .card-description {
