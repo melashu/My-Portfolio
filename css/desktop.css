@@ -27,30 +27,6 @@ main {
   letter-spacing: 0.03em;
 }
 
-
-/* nav ul {
-  display: flex;
-  column-gap: 20px;
-}
-
-nav li {
-  padding: 10px 12px;
-  text-align: center;
-  vertical-align: center;
-}
-
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-family: "Inter", sans-serif;
-  font-style: bold;
-  font-size: 20px;
-  line-height: 20px;
-  line-height: 110%;
-  text-align: center;
-  vertical-align: middle;
-} */
-
 .headline {
   height: 870px;
   background-image: url("../image/desktop.png");
