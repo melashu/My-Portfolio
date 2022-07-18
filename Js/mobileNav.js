@@ -42,6 +42,8 @@ btnClose.addEventListener("click", () => {
   btnClose.style.display = "none";
 
   navContainer.style.width = "auto";
-  litsItem.style.display = "none";
 
+  headerContainer.style.height = "48px";
+  headerContainer.style.alignItems = "center";
+  litsItem.style.display = "none";
 });
