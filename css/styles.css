@@ -11,6 +11,28 @@ ul {
   list-style: none;
 }
 
+.btn-close {
+  align-self: flex-end;
+  color: #fff;
+  margin-top: 16px;
+  display: none;
+}
+
+.nav-bar li {
+  border-bottom: 1px solid #6f6c6b;
+  padding: 16px;
+}
+
+.nav-bar a {
+  color: #fff5e1;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+}
+
 nav ul {
   display: none;
 }
