@@ -1,57 +1,57 @@
-const mainContainer = document.querySelector('main');
-const headerContainer = document.querySelector('header');
+const mainContainer = document.querySelector("main");
+const headerContainer = document.querySelector("header");
 
-const navContainer = document.getElementsByClassName('nav-bar')[0];
-const mainBox = document.getElementById('mail-box');
-const menuIcon = document.getElementById('menu-icon');
-const btnClose = document.getElementById('btn-close');
-const devName = document.getElementsByClassName('dev-name')[0];
-const litsItem = document.querySelector('nav ul');
-const menuItemList = document.querySelectorAll('nav ul li');
+const navContainer = document.getElementsByClassName("nav-bar")[0];
+const mainBox = document.getElementById("mail-box");
+const menuIcon = document.getElementById("menu-icon");
+const btnClose = document.getElementById("btn-close");
+const devName = document.getElementsByClassName("dev-name")[0];
+const litsItem = document.querySelector("nav ul");
+const menuItemList = document.querySelectorAll("nav ul li");
 
-menuIcon.addEventListener('click', () => {
+menuIcon.addEventListener("click", () => {
   /** *
    * Lets hidden some element
    */
-  menuIcon.style.display = 'none';
-  mainContainer.style.display = 'none';
-  devName.style.display = 'none';
-  mainBox.style.display = 'none';
+  menuIcon.style.display = "none";
+  mainContainer.style.display = "none";
+  devName.style.display = "none";
+  mainBox.style.display = "none";
 
-  btnClose.style.display = 'block';
+  btnClose.style.display = "block";
 
-  headerContainer.style.height = '100vh';
-  headerContainer.style.alignItems = 'flex-start';
+  headerContainer.style.height = "100vh";
+  headerContainer.style.alignItems = "flex-start";
 
-  navContainer.style.display = 'flex';
-  navContainer.style.flexDirection = 'column';
-  navContainer.style.justifyContent = 'space-between';
-  navContainer.style.width = '100%';
+  navContainer.style.display = "flex";
+  navContainer.style.flexDirection = "column";
+  navContainer.style.justifyContent = "space-between";
+  navContainer.style.width = "100%";
 
-  litsItem.style.display = 'block';
-  litsItem.style.alignItems = 'initial';
-  litsItem.style.width = '90%';
-  litsItem.style.color = '#fff5e1';
+  litsItem.style.display = "block";
+  litsItem.style.alignItems = "initial";
+  litsItem.style.width = "95%";
+  litsItem.style.color = "#fff5e1";
 });
 
 function reveret() {
-  menuIcon.style.display = 'block';
-  mainContainer.style.display = 'block';
-  devName.style.display = 'block';
-  mainBox.style.display = 'block';
-  btnClose.style.display = 'none';
-  navContainer.style.width = 'auto';
-  headerContainer.style.height = '48px';
-  headerContainer.style.alignItems = 'center';
-  litsItem.style.display = 'none';
+  menuIcon.style.display = "block";
+  mainContainer.style.display = "block";
+  devName.style.display = "block";
+  mainBox.style.display = "block";
+  btnClose.style.display = "none";
+  navContainer.style.width = "auto";
+  headerContainer.style.height = "48px";
+  headerContainer.style.alignItems = "center";
+  litsItem.style.display = "none";
 }
-btnClose.addEventListener('click', () => {
+btnClose.addEventListener("click", () => {
   reveret();
   window.location.reload();
 });
 
 menuItemList.forEach((item) => {
-  item.addEventListener('click', () => {
+  item.addEventListener("click", () => {
     reveret();
     window.location.reload();
   });
