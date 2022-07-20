@@ -118,3 +118,9 @@ projectButton.forEach((item) => {
 storyButton.addEventListener("click", () => {
   popupWindow(0);
 });
+
+popupClose.addEventListener("click", () => {
+  popup.style.display = "none";
+  header.style.filter = "blur(0)";
+  socialIcon.style.filter = "blur(0)";
+});
