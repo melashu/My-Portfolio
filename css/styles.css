@@ -69,8 +69,8 @@ ul {
   line-height: 24px;
 }
 
-.popup-button:first-child {
-  margin-right: 20px;
+#btn-live{
+  margin-right: 16px;
 }
 
 .btn-close {
