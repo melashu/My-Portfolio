@@ -119,6 +119,45 @@ storyButton.addEventListener("click", () => {
   popupWindow(0);
 });
 
+function popupWindow(key) {
+  window.scrollTo(0, 0);
+  let project = projectList[key];
+
+  popupH2.innerHTML = project["projectTitle"];
+  popupTitleContainer.appendChild(popupH2);
+  popupTitleContainer.appendChild(popupClose);
+
+  const temp = `<div class="popup-container">
+            <ul class="tools" id="popup-tools">
+                <li>${project["techTools"]["html"]}</li>
+                <li>${project["techTools"]["bootstrap"]}</li>
+                <li>${project["techTools"]["ruby"]}</li>
+            </ul>
+            <div class="popup-left-container">
+                <div class="popup-img-container">
+                    <img src="${project["projectImage"]}" alt="project image" class="popup-img">
+                </div>
+                <div class="popup-description-container">
+                    <p class="popup-description" id="popup-description">${project["projectDiscription"]}</p>
+                    <div class="popup-button">
+                        <a href="${project["liveLink"]}" class="popup-btn submit-button" id="btn-live">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="${project["liveSources"]}" class="popup-btn submit-button" id="btn-source">See Sources <i class="popup-btn-icon fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+`;
+
+  const popupContainerDOM = new DOMParser().parseFromString(temp, "text/html");
+  const x = popupContainerDOM.getElementsByClassName("popup-container")[0];
+  x.insertBefore(popupTitleContainer, x.children[0]);
+  popup.style.display = "block";
+  popup.appendChild(x);
+  header.style.filter = "blur(3px)";
+  socialIcon.style.filter = "blur(3px)";
+}
+
+
 popupClose.addEventListener("click", () => {
   popup.style.display = "none";
   header.style.filter = "blur(0)";
