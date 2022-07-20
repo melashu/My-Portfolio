@@ -95,3 +95,14 @@ const projectList = [
 const projectButton = document.querySelectorAll(".card-button");
 const header = document.querySelector("header");
 const main = document.querySelector("main");
+
+const socialIcon = document.getElementsByClassName("social-media")[0];
+const storyButton = document.getElementsByClassName("story-button")[0];
+const popupTitleContainer = document.createElement("div");
+popupTitleContainer.className = "popup-title-container";
+const popupH2 = document.createElement("h2");
+popupH2.className = "popup-title";
+const popupClose = document.createElement("span");
+popupClose.className = "popup-close-btn";
+popupClose.id = "popup-close-btn";
+popupClose.innerHTML = "&times;";
