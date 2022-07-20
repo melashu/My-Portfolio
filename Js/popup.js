@@ -91,3 +91,7 @@ const projectList = [
       liveSources: "https://github.com/melashu/My-Portfolio",
     },
   ];
+  const popup = document.getElementById("popup");
+const projectButton = document.querySelectorAll(".card-button");
+const header = document.querySelector("header");
+const main = document.querySelector("main");
