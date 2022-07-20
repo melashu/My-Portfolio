@@ -3,19 +3,16 @@
   padding: 0;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style: none;
-}
-
-.btn-close {
-  align-self: flex-end;
-  color: #fff;
-  margin-top: 16px;
-  display: none;
 }
 
 .popup {
@@ -26,6 +23,18 @@ ul {
   right: 5px;
   height: 5214px;
   width: 100vw;
+}
+
+.popup-title-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.popup-close-btn {
+  color: #333;
+  font-weight: 400;
+  font-size: 40px;
 }
 
 .popup-container {
@@ -41,27 +50,17 @@ ul {
   padding: 16px;
 }
 
-.popup-title-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.popup-close-btn {
-  color: #333;
-  font-weight: 400;
-  font-size: 40px;
-}
-
 .popup-img {
   width: 95%;
   height: 50vh;
 }
+
 .popup-description-container {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
+
 .popup-description {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -69,8 +68,16 @@ ul {
   font-size: 16px;
   line-height: 24px;
 }
+
 .popup-button:first-child {
   margin-right: 20px;
+}
+
+.btn-close {
+  align-self: flex-end;
+  color: #fff;
+  margin-top: 16px;
+  display: none;
 }
 
 .nav-bar li {
