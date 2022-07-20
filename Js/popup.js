@@ -114,3 +114,7 @@ projectButton.forEach((item) => {
     popupWindow(key);
   });
 });
+
+storyButton.addEventListener("click", () => {
+  popupWindow(0);
+});
