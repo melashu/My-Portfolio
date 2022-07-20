@@ -21,7 +21,7 @@ ul {
   position: absolute;
   top: 50px;
   right: 5px;
-  height: 5214px;
+  /* height: 5214px; */
   width: 100vw;
 }
 
@@ -45,13 +45,11 @@ ul {
   left: 5%;
   background-color: #fff;
   width: 84vw;
-  height: 129vh;
-  padding: 16px;
+  padding: 16px 16px 24px 16px;
 }
 
 .popup-img {
   width: 95%;
-  height: 50vh;
 }
 
 .popup-description-container {
