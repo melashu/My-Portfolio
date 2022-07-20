@@ -18,6 +18,29 @@ ul {
   display: none;
 }
 
+.popup {
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 5px;
+  height: 5214px;
+  width: 100vw;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  position: absolute;
+  left: 5%;
+  
+  background-color: #fff;
+  width: 84vw;
+  height: 129vh;
+  padding: 16px;
+}
+
 .nav-bar li {
   border-bottom: 1px solid #6f6c6b;
   padding: 16px;
