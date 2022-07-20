@@ -106,3 +106,11 @@ const popupClose = document.createElement("span");
 popupClose.className = "popup-close-btn";
 popupClose.id = "popup-close-btn";
 popupClose.innerHTML = "&times;";
+
+projectButton.forEach((item) => {
+  item.addEventListener("click", (obj) => {
+    obj.preventDefault();
+    let key = obj.target.dataset.id;
+    popupWindow(key);
+  });
+});
