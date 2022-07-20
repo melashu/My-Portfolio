@@ -50,6 +50,19 @@ main {
   grid-column: 7 / 12;
 }
 
+.popup-button {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  row-gap: 8px;
+}
+
+.popup-button a {
+  height: 33px;
+  background-color: #f55800;
+  text-align: center;
+}
+
 .main-header {
   height: 48px;
   padding: 16px 25px 16px 0;
