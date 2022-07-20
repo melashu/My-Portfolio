@@ -95,6 +95,8 @@ const popup = document.getElementById('popup');
 const projectButton = document.querySelectorAll('.card-button');
 const header = document.querySelector('header');
 
+const body = document.querySelector('body');
+
 const socialIcon = document.getElementsByClassName('social-media')[0];
 const storyButton = document.getElementsByClassName('story-button')[0];
 const popupTitleContainer = document.createElement('div');
@@ -138,6 +140,7 @@ function popupWindow(key) {
   const popupContainerDOM = new DOMParser().parseFromString(temp, 'text/html');
   const x = popupContainerDOM.getElementsByClassName('popup-container')[0];
   x.insertBefore(popupTitleContainer, x.children[0]);
+  body.style.overflowY = "hidden";
   popup.style.display = 'block';
   popup.appendChild(x);
   header.style.filter = 'blur(3px)';
@@ -160,4 +163,5 @@ popupClose.addEventListener('click', () => {
   popup.style.display = 'none';
   header.style.filter = 'blur(0)';
   socialIcon.style.filter = 'blur(0)';
+  body.style.overflowY = "visible";
 });
