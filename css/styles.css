@@ -41,6 +41,37 @@ ul {
   padding: 16px;
 }
 
+.popup-title-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.popup-close-btn {
+  color: #333;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.popup-img {
+  width: 95%;
+  height: 50vh;
+}
+.popup-description-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.popup-description {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.popup-button:first-child {
+  margin-right: 20px;
+}
+
 .nav-bar li {
   border-bottom: 1px solid #6f6c6b;
   padding: 16px;
