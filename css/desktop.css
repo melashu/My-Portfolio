@@ -17,17 +17,12 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-
-  /* height: 100%; */
   height: 5214px;
   width: 100vw;
 }
 
 .popup-title-container {
-  /* display: flex; */
   justify-content: space-between;
-
-  /* align-items: center; */
 }
 
 .popup-close-btn {
@@ -39,10 +34,7 @@ main {
 .popup-container {
   top: 2%;
   left: 7%;
-  width: 75%;
-  height: 75vh;
-
-  /* margin: 0 auto; */
+  /* height: 75vh; */
 }
 
 .popup-left-container {
@@ -55,15 +47,8 @@ main {
   grid-column: 1 / 7;
 }
 
-.popup-img {
-  width: 100%;
-  height: 448px;
-
-  /* height: 50vh; */
-}
-
 .popup-description-container {
-  grid-column: 7 / 11;
+  grid-column: 7 / 12;
 }
 
 .main-header {
@@ -71,8 +56,6 @@ main {
   padding: 16px 25px 16px 0;
   position: fixed;
   width: 99vw;
-
-  /* filter: blur(3px); */
 }
 
 .dev-name {
@@ -139,8 +122,6 @@ nav li {
   flex-direction: column;
   padding: 360px 0;
   justify-content: center;
-
-  /* filter: blur(3px); */
 }
 
 .social-media li :hover {
@@ -199,6 +180,7 @@ nav li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 24px;
+  margin-bottom: 24px;
 }
 
 .feature-image {
@@ -215,7 +197,6 @@ nav li {
 }
 
 .story-section {
-  /* grid-column: 8/13; */
   width: 448px;
   display: flex;
   flex-direction: column;
