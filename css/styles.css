@@ -43,7 +43,6 @@ ul {
   row-gap: 24px;
   position: absolute;
   left: 5%;
-  
   background-color: #fff;
   width: 84vw;
   height: 129vh;
@@ -69,8 +68,8 @@ ul {
   line-height: 24px;
 }
 
-#btn-live{
-  margin-right: 16px;
+#btn-live {
+  margin-right: 8px;
 }
 
 .btn-close {
