@@ -3,11 +3,13 @@ const email = document.getElementById("email");
 const errorMessage = document.getElementsByClassName("error-message")[0];
 
 form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    if(email.value === email.value.toLowerCase()) {
-        form.submit();
+  e.preventDefault();
+  if (email.value === email.value.toLowerCase()) {
+    form.submit();
   } else {
-    errorMessage.innerHTML = "Your Form Is Not Valid, Please remove Capital Letters From Email";
-    }
-}
-);
+    email.focus();
+    errorMessage.innerHTML =
+      "The form in not sent, Please enter lowercase email look likes above!";
+    email.value = email.value.toLowerCase();
+  }
+});
