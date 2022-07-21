@@ -165,5 +165,4 @@ popupClose.addEventListener('click', () => {
   header.style.filter = 'blur(0)';
   socialIcon.style.filter = 'blur(0)';
   body.style.overflowY = 'visible';
-  
 });
