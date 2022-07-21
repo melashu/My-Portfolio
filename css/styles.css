@@ -16,12 +16,13 @@ ul {
 }
 
 .popup {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.9);
   display: none;
   position: absolute;
-  top: 50px;
+  top: 51px;
   right: 5px;
   width: 100vw;
+  height: 5214px;
 }
 
 .popup-title-container {
