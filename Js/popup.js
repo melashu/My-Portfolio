@@ -21,7 +21,7 @@ const projectList = [
       bootstrap: 'Bootstrap',
       ruby: 'Ruby',
     },
-    projectImage: '../image/card1.png',
+    projectImage: '../image/card22.png',
     liveLink: 'https://melashu.github.io/My-Portfolio/',
     liveSources: 'https://github.com/melashu/My-Portfolio',
   },
@@ -34,7 +34,7 @@ const projectList = [
       bootstrap: 'Bootstrap',
       ruby: 'Ruby',
     },
-    projectImage: '../image/card2.png',
+    projectImage: '../image/card22.png',
     liveLink: 'https://melashu.github.io/My-Portfolio/',
     liveSources: 'https://github.com/melashu/My-Portfolio',
   },
@@ -47,7 +47,7 @@ const projectList = [
       bootstrap: 'Bootstrap',
       ruby: 'Ruby',
     },
-    projectImage: '../image/card3.png',
+    projectImage: '../image/card33.png',
     liveLink: 'https://melashu.github.io/My-Portfolio/',
     liveSources: 'https://github.com/melashu/My-Portfolio',
   },
@@ -60,7 +60,7 @@ const projectList = [
       bootstrap: 'Bootstrap',
       ruby: 'Ruby',
     },
-    projectImage: '../image/card4.png',
+    projectImage: '../image/card22.png',
     liveLink: 'https://melashu.github.io/My-Portfolio/',
     liveSources: 'https://github.com/melashu/My-Portfolio',
   },
@@ -142,6 +142,7 @@ function popupWindow(key) {
   x.insertBefore(popupTitleContainer, x.children[0]);
   body.style.overflowY = 'hidden';
   popup.style.display = 'block';
+  popup.innerHTML = '';
   popup.appendChild(x);
   header.style.filter = 'blur(3px)';
   socialIcon.style.filter = 'blur(3px)';
@@ -164,4 +165,5 @@ popupClose.addEventListener('click', () => {
   header.style.filter = 'blur(0)';
   socialIcon.style.filter = 'blur(0)';
   body.style.overflowY = 'visible';
+  
 });
