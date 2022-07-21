@@ -11,9 +11,63 @@ main {
   display: none;
 }
 
+.popup {
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5214px;
+  width: 100vw;
+}
+
+.popup-title-container {
+  justify-content: space-between;
+}
+
+.popup-close-btn {
+  color: #333;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.popup-container {
+  top: 2%;
+  left: 7%;
+}
+
+.popup-left-container {
+  display: grid;
+  column-gap: 24px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.popup-img-container {
+  grid-column: 1 / 7;
+}
+
+.popup-description-container {
+  grid-column: 7 / 12;
+}
+
+.popup-button {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  row-gap: 8px;
+}
+
+.popup-button a {
+  height: 33px;
+  background-color: #f55800;
+  text-align: center;
+}
+
 .main-header {
   height: 48px;
-  padding: 16px 142px;
+  padding: 16px 25px 16px 0;
+  position: fixed;
+  width: 99vw;
 }
 
 .dev-name {
@@ -138,6 +192,7 @@ nav li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 24px;
+  margin-bottom: 24px;
 }
 
 .feature-image {
@@ -154,7 +209,6 @@ nav li {
 }
 
 .story-section {
-  /* grid-column: 8/13; */
   width: 448px;
   display: flex;
   flex-direction: column;
@@ -205,7 +259,7 @@ nav li {
 .card4:hover {
   background-image: url("../image/card1.png");
   background-repeat: no-repeat;
-  padding: 0;
+  padding: 16px 0;
   display: grid;
 }
 
@@ -238,7 +292,7 @@ nav li {
 
 .card:hover .card-button {
   display: block;
-  width: 100%;
+  width: 80%;
   height: 58px;
   text-align: center;
 }
