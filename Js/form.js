@@ -10,4 +10,4 @@ form.addEventListener("submit", (e) => {
     errorMessage.innerHTML = "Your Form Is Not Valid, Please remove Capital Letters From Email";
     }
 }
-)
+);
