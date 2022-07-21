@@ -593,11 +593,13 @@ footer {
   background-color: #091e42;
   margin-right: 10px;
 }
-.error-message{
+
+.error-message {
   color: red;
-  font-size: 12px;
-  font-family: 'Inter',sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.87px;
-  line-height: 16px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
 }
