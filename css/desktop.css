@@ -3,10 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  width: 100vw;
-}
-
 .menu-icon {
   display: none;
 }
@@ -66,7 +62,6 @@ main {
 .main-header {
   height: 48px;
   padding: 16px 25px 16px 0;
-  position: fixed;
   width: 99vw;
 }
 

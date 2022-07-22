@@ -254,11 +254,14 @@
             </h2>
             <form class="form" action="https://formspree.io/f/xzboldgg" method="post">
                 <input type="text" name="fullName" maxlength="30" placeholder="Full Name" required>
-                <input type="email" name="email" placeholder="Email Address" required>
-                <textarea name="comment" maxlength="500" cols="30" rows="10" placeholder="Enter text here"
-                    required></textarea>
-                <button type="submit" class="submit-button">Get in touch</button>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <textarea name="comment" maxlength="500" cols="30" rows="10" placeholder="Enter text here" required></textarea>
+                <div class="contact-button-container">
+                    <button type="submit" class="submit-button">Get in touch</button>
+                </div>
+                <span class="error-message"></span>
             </form>
+
         </section>
         <hr>
         <footer>
@@ -274,6 +277,7 @@
 
     <script src="Js/mobileNav.js"></script>
     <script src="Js/popup.js"></script>
+    <script src="Js/form.js"></script>
 </body>
 
 </html>

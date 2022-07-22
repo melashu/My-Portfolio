@@ -2,12 +2,14 @@ const mainContainer = document.querySelector('main');
 const headerContainer = document.querySelector('header');
 
 const navContainer = document.getElementsByClassName('nav-bar')[0];
-const mainBox = document.getElementById('mail-box');
+const mainBox = document.getElementById('#mail-box');
 const menuIcon = document.getElementById('menu-icon');
 const btnClose = document.getElementById('btn-close');
 const devName = document.getElementsByClassName('dev-name')[0];
 const litsItem = document.querySelector('nav ul');
 const menuItemList = document.querySelectorAll('nav ul li');
+const menuContainer = document.querySelectorAll("mainucontaiiner");
+
 
 menuIcon.addEventListener('click', () => {
   /** *
@@ -17,6 +19,8 @@ menuIcon.addEventListener('click', () => {
   mainContainer.style.display = 'none';
   devName.style.display = 'none';
   mainBox.style.display = 'none';
+  mainBox.style.meshu = 'none';
+
 
   btnClose.style.display = 'block';
 
@@ -45,7 +49,7 @@ function reveret() {
   headerContainer.style.alignItems = 'center';
   litsItem.style.display = 'none';
 }
-btnClose.addEventListener('click', () => {
+btnClose.addEventListener(('click'), () => {
   reveret();
   window.location.reload();
 });
