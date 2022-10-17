@@ -276,6 +276,7 @@ nav ul {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  margin: 0 auto;
 }
 
 .story-button:hover {
@@ -303,16 +304,17 @@ nav ul {
 
 .card {
   color: #fff;
-  background-image: url("../image/background.png");
+
+  /* background-image: url("../image/background.png"); */
   background-size: cover;
   height: 386px;
 }
 
 .card-body {
-  padding: 8px 16px;
+  /* padding: 8px 16px;
   margin-top: 76px;
   display: grid;
-  row-gap: 12px;
+  row-gap: 12px; */
 }
 
 .card-title {
@@ -320,35 +322,43 @@ nav ul {
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
-  line-height: 44px;
-  color: #fff;
+  color: #091e42;
 }
 
 .card-description {
   font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 24px;
-  color: #fff;
+  color: #172b4d;
   letter-spacing: 0.03em;
+  padding: 5px;
+  text-align: center;
 }
 
 .tech-tools {
   display: flex;
-  width: 236px;
+  flex-wrap: wrap;
+  width: fit-content;
   justify-content: space-between;
+  margin: 10px auto;
+  column-gap: 2px;
 }
 
 .tech-tools li {
-  background: rgba(255, 255, 255, 0.24);
+  background: hsla(218, 76%, 15%, 0.144);
   padding: 10px 12px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #fff;
+  color: #091e42;
+}
+
+.emptyStack {
+  display: none;
 }
 
 .card-button {

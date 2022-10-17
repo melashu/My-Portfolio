@@ -29,6 +29,7 @@
     "stylelint-scss": "^3.21.0"
   },
   "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
     "postcss-scss": "^4.0.4"
   }
 }
