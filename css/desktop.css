@@ -108,7 +108,7 @@ nav li {
 }
 
 .headline {
-  height: 90vh;
+  height: 100vh;
   background-image: url("../image/desktop.png");
   background-repeat: no-repeat;
   background-size: fill;
@@ -131,7 +131,7 @@ nav li {
   align-self: flex-start;
   display: flex;
   flex-direction: column;
-  padding: 360px 0;
+  padding: 250px 0;
   justify-content: center;
 }
 
