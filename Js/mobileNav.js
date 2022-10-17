@@ -8,25 +8,16 @@ const btnClose = document.getElementById('btn-close');
 const devName = document.getElementsByClassName('dev-name')[0];
 const litsItem = document.querySelector('nav ul');
 const menuItemList = document.querySelectorAll('nav ul li');
-const menuContainer = document.querySelectorAll("mainucontaiiner");
-
 
 menuIcon.addEventListener('click', () => {
-  /** *
-   * Lets hidden some element
-   */
   menuIcon.style.display = 'none';
   mainContainer.style.display = 'none';
   devName.style.display = 'none';
   mainBox.style.display = 'none';
   mainBox.style.meshu = 'none';
-
-
   btnClose.style.display = 'block';
-
   headerContainer.style.height = '100vh';
   headerContainer.style.alignItems = 'flex-start';
-
   navContainer.style.display = 'flex';
   navContainer.style.flexDirection = 'column';
   navContainer.style.justifyContent = 'space-between';
@@ -56,7 +47,7 @@ btnClose.addEventListener(('click'), () => {
 
 menuItemList.forEach((item) => {
   item.addEventListener('click', () => {
-    reveret();
+    // reveret();
     window.location.reload();
   });
 });
