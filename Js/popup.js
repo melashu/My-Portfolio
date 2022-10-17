@@ -182,7 +182,6 @@ popupClose.addEventListener("click", () => {
   location.href = "#work";
 });
 
-document.addEventListener("DOMContentLoaded", () => {
   storySection.innerHTML = ` 
        <figure class="feature-image">
                     <img src=${
@@ -247,4 +246,3 @@ document.addEventListener("DOMContentLoaded", () => {
     cardBody.style.backgroundImage = `url(${eachCard.projectImage})`;
     cardSection.appendChild(card);
   }
-});
