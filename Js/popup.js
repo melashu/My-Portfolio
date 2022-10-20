@@ -109,6 +109,22 @@ const projectList = [
     liveLink: "https://live-cryptos.netlify.app/",
     liveSources: "https://github.com/melashu/livecrypto",
   },
+  {
+    projectTitle: "MDS Back office",
+    projectDiscription:
+      " MDS admin back office is a sales management admin app that enables the admins to manage everything.",
+    detailDescription:
+      "MDS admin back office is a sales management admin dashboard app that enables the administrator, to add and remove users, can track deliveries and orders, can add and remove products, view details of each product and each user, check the company's revenue and handle notifications and messages.",
+    techTools: {
+      react: "React",
+      scss: "SCSS",
+      redux: "Redux",
+      mui: "Material UI",
+    },
+    projectImage: "./image/mds-light.png",
+    liveLink: "https://mdsadmin.netlify.app/",
+    liveSources: "https://github.com/melashu/Salse-management-admin-Backoffice",
+  },
 ];
 const popup = document.getElementById("popup");
 const cardSection = document.querySelector(".card-section");
@@ -182,7 +198,7 @@ popupClose.addEventListener("click", () => {
   location.href = "#work";
 });
 
-  storySection.innerHTML = ` 
+storySection.innerHTML = ` 
        <figure class="feature-image">
                     <img src=${
                       projectList[projectList.length - 1].projectImage
@@ -204,16 +220,16 @@ popupClose.addEventListener("click", () => {
                                   </div>
  `;
 
-  storySection.addEventListener("click", (event) => {
-    if (event.target.classList.contains("story-button")) {
-      popupWindow(projectList.length - 1);
-    }
-  });
+storySection.addEventListener("click", (event) => {
+  if (event.target.classList.contains("story-button")) {
+    popupWindow(projectList.length - 1);
+  }
+});
 
-  for (let index = projectList.length - 1; index >= 0; index -= 1) {
-    const eachCard = projectList[index];
+for (let index = projectList.length - 1; index >= 0; index -= 1) {
+  const eachCard = projectList[index];
 
-    const template = `       
+  const template = `       
                <article class="card">
                     <div class="card-body">
                     
@@ -234,15 +250,15 @@ popupClose.addEventListener("click", () => {
                 </article>
                 
                `;
-    const cardDOM = new DOMParser().parseFromString(template, "text/html");
-    const card = cardDOM.querySelector("article");
-    const cardButton = cardDOM.querySelector(".card-button");
-    cardButton.addEventListener("click", () => {
-      popupWindow(index);
-    });
+  const cardDOM = new DOMParser().parseFromString(template, "text/html");
+  const card = cardDOM.querySelector("article");
+  const cardButton = cardDOM.querySelector(".card-button");
+  cardButton.addEventListener("click", () => {
+    popupWindow(index);
+  });
 
-    const cardBody = cardDOM.querySelector(".card-body");
+  const cardBody = cardDOM.querySelector(".card-body");
 
-    cardBody.style.backgroundImage = `url(${eachCard.projectImage})`;
-    cardSection.appendChild(card);
-  }
+  cardBody.style.backgroundImage = `url(${eachCard.projectImage})`;
+  cardSection.appendChild(card);
+}
