@@ -153,7 +153,6 @@ function popupWindow(key) {
 
   const temp = `<div class="popup-container">
             <ul class="tech-tools" id="popup-tools">
-                <li>${project.techTools.html}</li>
 ${Object.values(project.techTools).map((tech) => `<li>${tech}</li>`)}
             </ul>
             <div class="popup-left-container">
@@ -169,10 +168,10 @@ ${Object.values(project.techTools).map((tech) => `<li>${tech}</li>`)}
                     <div class="popup-button">
                         <a href="${
                           project.liveLink
-                        }" class="popup-btn submit-button" id="btn-live">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        }" class="popup-btn submit-button" target="_blank" id="btn-live">See Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         <a href="${
                           project.liveSources
-                        }" class="popup-btn submit-button" id="btn-source">See Sources <i class="popup-btn-icon fa-brands fa-github"></i></a>
+                        }" class="popup-btn submit-button" target="_blank" id="btn-source">See Sources <i class="popup-btn-icon fa-brands fa-github"></i></a>
                     </div>
                 </div>
             </div>
@@ -232,7 +231,9 @@ for (let index = projectList.length - 1; index >= 0; index -= 1) {
   const template = `       
                <article class="card">
                     <div class="card-body">
-                    
+                
+                    <img class="card-img" src="${eachCard.projectImage}"/>
+
                     </div>
                    <div>
                         <h2 class="card-title">${eachCard.projectTitle}</h2>
@@ -257,8 +258,8 @@ for (let index = projectList.length - 1; index >= 0; index -= 1) {
     popupWindow(index);
   });
 
-  const cardBody = cardDOM.querySelector(".card-body");
+  // const cardBody = cardDOM.querySelector(".card-body");
 
-  cardBody.style.backgroundImage = `url(${eachCard.projectImage})`;
+  // cardBody.style.backgroundImage = `url(${eachCard.projectImage})`;
   cardSection.appendChild(card);
 }

@@ -99,6 +99,9 @@ nav ul {
 .desk-card-title {
   display: none;
 }
+.mail-box {
+  display: none;
+}
 
 .main-header {
   display: flex;
@@ -179,7 +182,7 @@ nav ul {
 }
 
 .work {
-  padding: 120px 0;
+  padding: 70px 0;
   display: grid;
   align-items: center;
 }
@@ -214,7 +217,13 @@ nav ul {
 
 .feature-image {
   margin-bottom: 12px;
-  width: 327px;
+  width: 100%;
+  padding: 10px;
+}
+
+.feature-image img {
+  width: 98%;
+  object-fit: cover;
 }
 
 .story-section {
@@ -236,9 +245,10 @@ nav ul {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   color: #091e42;
+  text-align: justify;
 }
 
 .tools {
@@ -304,17 +314,17 @@ nav ul {
 
 .card {
   color: #fff;
-
-  /* background-image: url("../image/background.png"); */
+  padding: 5px;
   background-size: cover;
-  height: 386px;
 }
 
 .card-body {
-  /* padding: 8px 16px;
-  margin-top: 76px;
-  display: grid;
-  row-gap: 12px; */
+  padding: 8px 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.card-body img {
+  width: 98%;
 }
 
 .card-title {
@@ -323,6 +333,7 @@ nav ul {
   font-weight: 400;
   font-size: 32px;
   color: #091e42;
+  text-align: center;
 }
 
 .card-description {
@@ -334,7 +345,9 @@ nav ul {
   color: #172b4d;
   letter-spacing: 0.03em;
   padding: 5px;
-  text-align: center;
+  text-align: justify;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .tech-tools {
@@ -362,7 +375,7 @@ nav ul {
 }
 
 .card-button {
-  height: 48px;
+  height: 55px;
   width: 100%;
   border-radius: 0;
   border: none;
@@ -374,7 +387,10 @@ nav ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 .card-button:hover {
@@ -406,10 +422,8 @@ nav ul {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
-  background-image: url("../image/about.png");
   background-repeat: no-repeat;
   background-position: bottom -10px right 7px;
-  height: 420px;
 }
 
 .about-me-title {
@@ -426,10 +440,20 @@ nav ul {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   color: #f4f5f7;
   letter-spacing: 0.03em;
+  text-align: justify;
+}
+
+.skill-list {
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 20px;
 }
 
 .about-me-button {
@@ -443,6 +467,8 @@ nav ul {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  display: block;
+  margin-top: 15px;
 }
 
 .about-me-button:hover {
