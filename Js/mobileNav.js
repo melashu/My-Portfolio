@@ -37,6 +37,8 @@ function reveret() {
   headerContainer.style.height = "48px";
   headerContainer.style.alignItems = "center";
   litsItem.style.display = "none";
+    mainBox.style.display = "none";
+
 }
 btnClose.addEventListener("click", () => {
   reveret();
@@ -46,7 +48,6 @@ btnClose.addEventListener("click", () => {
 menuItemList.forEach((item) => {
   item.addEventListener("click", (e) => {
     window.location = e.target.href;
-    mainBox.style.display = "none";
     mainContainer.style.display = "block";
 
   });
