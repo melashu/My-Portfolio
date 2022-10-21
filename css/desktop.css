@@ -263,10 +263,12 @@ nav li {
 .card-body {
   margin: 15px;
   min-height: 280px;
-  background-size: contain;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
 }
+
+.card-body img{
+  width: 98%;
+}
+
 
 .card:hover {
   transform: scale(0.95);
