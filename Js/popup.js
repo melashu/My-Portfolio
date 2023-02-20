@@ -121,7 +121,7 @@ const projectList = [
       redux: "Redux",
       mui: "Material UI",
     },
-    projectImage: "./image/mds-light.webp",
+    projectImage: "./image/mds light.webp",
     liveLink: "https://mdsadmin.netlify.app/",
     liveSources: "https://github.com/melashu/Salse-management-admin-Backoffice",
   },
