@@ -106,10 +106,10 @@ nav ul {
 .main-header {
   display: flex;
   flex-direction: row;
-  background: #3c3a39;
+  background: #1c1a19;
   justify-content: space-between;
   align-items: center;
-  padding: 0 15px;
+  padding: 5px 15px;
   height: 48px;
 }
 
@@ -126,14 +126,13 @@ nav ul {
 .headline {
   display: flex;
   flex-direction: column;
-  padding: 120px 24px;
-  height: 100%;
+  padding: 80px 34px;
+  height: 70vh;
   align-items: flex-start;
   background: #1c1a19;
-  background-image: url("../image/arts.png");
-  background-repeat: no-repeat;
-  background-size: fill;
-  background-position: right 1px bottom -41px;
+}
+.my-profile{
+display: none;
 }
 
 .title {
@@ -156,11 +155,31 @@ nav ul {
   line-height: 32px;
   text-align: left;
   vertical-align: baseline;
-  margin: 12px 0;
+  margin: 8px 0;
+
+  overflow: hidden;
+	animation: cursor 2s step-start, 
+    text 5s steps(18) alternate;
+  white-space: nowrap;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
 }
 
 .description {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #fff;
   font-weight: 200;
@@ -179,6 +198,12 @@ nav ul {
 
 .social-media li {
   list-style: none;
+  margin-right: 3px;
+}
+.social-media li:hover {
+  /* position: relative; */
+  left: 30px;
+  transform: translateX(15px);
 }
 
 .work {
@@ -239,6 +264,7 @@ nav ul {
   font-size: 32px;
   color: #091e42;
   line-height: 44px;
+  text-align: center;
 }
 
 .story-description {
@@ -248,7 +274,7 @@ nav ul {
   font-size: 20px;
   line-height: 24px;
   color: #091e42;
-  text-align: justify;
+  text-align: center;
 }
 
 .tools {
@@ -345,7 +371,7 @@ nav ul {
   color: #172b4d;
   letter-spacing: 0.03em;
   padding: 5px;
-  text-align: justify;
+  text-align: center;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -356,7 +382,7 @@ nav ul {
   width: fit-content;
   justify-content: space-between;
   margin: 10px auto;
-  column-gap: 2px;
+  column-gap: 1px;
 }
 
 .tech-tools li {
@@ -368,6 +394,7 @@ nav ul {
   font-size: 15px;
   line-height: 20px;
   color: #091e42;
+  margin-bottom: 4px;
 }
 
 .emptyStack {

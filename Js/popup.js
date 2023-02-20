@@ -201,7 +201,7 @@ storySection.innerHTML = `
        <figure class="feature-image">
                     <img src=${
                       projectList[projectList.length - 1].projectImage
-                    } alt="featuer image">
+                    } alt="featuer image" />
                 </figure>
                 <div class="story-section">
                     <h2 class="story-title">${
@@ -232,7 +232,9 @@ for (let index = projectList.length - 1; index >= 0; index -= 1) {
                <article class="card">
                     <div class="card-body">
                 
-                    <img class="card-img" src="${eachCard.projectImage}"/>
+                    <img class="card-img" alt="${eachCard.projectTitle}" src="${
+    eachCard.projectImage
+  }" width="300" height="250"/>
 
                     </div>
                    <div>
