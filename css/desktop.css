@@ -109,10 +109,6 @@ nav li {
 
 .headline {
   height: 100vh;
-  background-image: url("../image/desktop.png");
-  background-repeat: no-repeat;
-  background-size: fill;
-  background-position: right 1px top 1px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   column-gap: 87px;
@@ -123,8 +119,61 @@ nav li {
   display: flex;
   flex-direction: column;
   width: 560px;
-  padding: 192px 0;
+  padding: 120px 0;
 }
+
+.my-profile{
+  display: block;
+ margin: 3rem 6rem;
+ animation: myAnim 1.5s cubic-bezier(0.55, 0, 1, 0.45) 1s infinite alternate-reverse both;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	10% {
+		transform: translate(-2px, -2px);
+	}
+
+	20% {
+		transform: translate(2px, -2px);
+	}
+
+	30% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(2px, 2px);
+	}
+
+	50% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, -2px);
+	}
+
+	70% {
+		transform: translate(-2px, 2px);
+	}
+
+	80% {
+		transform: translate(-2px, -2px);
+	}
+
+	90% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
 
 .social-media {
   order: -1;
@@ -139,12 +188,33 @@ nav li {
   transform: scale(1.1);
 }
 
-.title {
+.headline .title {
   font-weight: 400;
   font-size: 72px;
   line-height: 81.8px;
+
+  	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: counter 1s step-start infinite, 
+    letter 5s steps(18) alternate infinite;
 }
 
+
+@keyframes counter {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes letter {
+	0% { 
+    width: 5.25ch;
+  }
+	100% { 
+    width: 13.5ch; 
+  }
+}
 .supporting {
   font-size: 32px;
   font-style: medium;
@@ -162,7 +232,7 @@ nav li {
 
 .work {
   margin: 0 24px;
-  padding: 100px 24px;
+  padding: 40px 24px;
 }
 
 .work-header {
@@ -192,7 +262,7 @@ nav li {
   justify-content: center;
   column-gap: 24px;
   padding: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .feature-image {
