@@ -57,7 +57,7 @@ const projectList = [
       react: "React",
       redux: "Redux",
     },
-    projectImage: "./image/kcinema.webp",
+    projectImage: "./image/kciniema.webp",
     liveLink: "https://kcinema.netlify.app/",
     liveSources: "https://github.com/melashu/kCinema",
   },
