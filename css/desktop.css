@@ -83,6 +83,7 @@ body {
 nav ul {
   display: flex;
   column-gap: 20px;
+  margin-right: 50px;
 }
 
 nav li {
@@ -93,6 +94,11 @@ nav li {
 
 .nav-bar li {
   border-bottom: none;
+}
+.nav-bar li:hover {
+  border-bottom: #f55800 1px solid;
+  cursor: pointer;
+  
 }
 
 .nav-bar a {
@@ -123,9 +129,9 @@ nav li {
 }
 
 .my-profile{
-  display: block;
- margin: 3rem 6rem;
- animation: myAnim 1.5s cubic-bezier(0.55, 0, 1, 0.45) 1s infinite alternate-reverse both;
+ display: block;
+ margin: 5rem 10rem;
+ /* animation: myAnim 1.5s cubic-bezier(0.55, 0, 1, 0.45) 1s infinite alternate-reverse both; */
 }
 
 @keyframes myAnim {
@@ -216,7 +222,7 @@ nav li {
   }
 }
 .supporting {
-  font-size: 32px;
+  font-size: 38px;
   font-style: medium;
   letter-spacing: 0.03em;
   line-height: 44px;
@@ -232,7 +238,7 @@ nav li {
 
 .work {
   margin: 0 24px;
-  padding: 40px 24px;
+  padding: 60px 24px;
 }
 
 .work-header {
@@ -374,7 +380,7 @@ nav li {
 .about {
   padding: 136px 0;
   width: 100%;
-  margin-top: 120px;
+  margin-top: 80px;
 }
 
 .about-me {
@@ -401,20 +407,23 @@ nav li {
   line-height: 32px;
   width: 686px;
 }
-
+.skill-me-title{
+margin-left: 142px;
+text-align: left;
+}
 .about-skill {
   display: flex;
   justify-content: space-around;
-  padding: 141px 141px;
+  gap: 80px;
+  padding: 15px 15px;
   height: auto;
+  margin: 0 auto;
 }
 
-.tech-language,
-.tech-skill,
-.tech-freamwork li {
-  text-align: left;
-}
+.about-skill li:hover{
+  background-color: #f55800;
 
+}
 .form-section {
   display: grid;
   grid-template-columns: repeat(12, 1fr);

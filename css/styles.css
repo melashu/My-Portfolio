@@ -381,7 +381,6 @@ display: none;
   flex-wrap: wrap;
   width: fit-content;
   justify-content: space-between;
-  margin: 10px auto;
   column-gap: 1px;
 }
 
@@ -453,7 +452,7 @@ display: none;
   background-position: bottom -10px right 7px;
 }
 
-.about-me-title {
+.about-me-title,.skill-me-title {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
@@ -461,6 +460,10 @@ display: none;
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+}
+
+.skill-me-title{
+text-align: center;
 }
 
 .about-me-description {
@@ -471,7 +474,7 @@ display: none;
   line-height: 24px;
   color: #f4f5f7;
   letter-spacing: 0.03em;
-  text-align: justify;
+  text-align: center;
 }
 
 .skill-list {
@@ -516,17 +519,17 @@ display: none;
 }
 
 .about-skill {
-  padding: 120px 24px;
+  padding: 24px;
   color: white;
   text-align: center;
 }
 
 .tech-language,
 .tech-skill,
-.tech-freamwork {
+.tech-freamwork { 
   display: grid;
-  row-gap: 32px;
-  margin-bottom: 32px;
+  row-gap: 5px;
+  margin-bottom: 20px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -541,6 +544,8 @@ display: none;
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  margin-bottom: 12px;
+  height: 45px;
 }
 
 .form-section {
@@ -641,19 +646,22 @@ display: none;
 footer {
   display: flex;
   justify-content: center;
+  background-color: #1c1a19;
+  align-items: center;
+
 }
 
 .footer-social-media {
   display: flex;
   flex-direction: row;
-  margin-top: 12px;
+  margin: 12px;
   height: 40px;
   justify-content: flex-start;
   color: #1c1a19;
 }
 
 .footer-social-media img {
-  background-color: #091e42;
+
   margin-right: 10px;
 }
 

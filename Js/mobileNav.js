@@ -2,7 +2,6 @@ const mainContainer = document.querySelector("main");
 const headerContainer = document.querySelector("header");
 
 const navContainer = document.getElementsByClassName("nav-bar")[0];
-const mainBox = document.getElementById("mail-box");
 const menuIcon = document.getElementById("menu-icon");
 const btnClose = document.getElementById("btn-close");
 const devName = document.getElementsByClassName("dev-name")[0];
@@ -12,8 +11,6 @@ menuIcon.addEventListener("click", () => {
   menuIcon.style.display = "none";
   mainContainer.style.display = "none";
   devName.style.display = "none";
-  mainBox.style.display = "none";
-  mainBox.style.meshu = "none";
   btnClose.style.display = "block";
   headerContainer.style.height = "100vh";
   headerContainer.style.alignItems = "flex-start";
@@ -31,13 +28,11 @@ function reveret() {
   menuIcon.style.display = "block";
   mainContainer.style.display = "block";
   devName.style.display = "block";
-  mainBox.style.display = "block";
   btnClose.style.display = "none";
   navContainer.style.width = "auto";
   headerContainer.style.height = "48px";
   headerContainer.style.alignItems = "center";
   litsItem.style.display = "none";
-    mainBox.style.display = "none";
 
 }
 btnClose.addEventListener("click", () => {

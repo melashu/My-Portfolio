@@ -1,43 +1,14 @@
 /* eslint-disable */
 const projectList = [
   {
-    projectTitle: "MDS",
-    projectDiscription:
-      " This website demonstrate a services delivered by a technology firm called MDS.",
-    detailDescription:
-      " The website demonstrate a services delivered by a technology firm called Mount Digital solution. It is accessible in both mobile and desktop devices.",
-    techTools: {
-      javascript: "JavaScript",
-      bootstrap: "HTML",
-      react: "CSS",
-    },
-    projectImage: "./image/mds.webp",
-    liveLink: "https://melashu.github.io/Mount-Digital-Solution/index.html",
-    liveSources: "https://github.com/melashu/Mount-Digital-Solution",
-  },
-  {
-    projectTitle: "Tv Show",
-    projectDiscription:
-      " This app show a serious of TV shows from a TV-maze API.",
-    detailDescription:
-      " This app show a serious of TV shows from a TV-maze API. Users can put their comment and like to the show they want. and uses can check the previous comments and number of likes given by others.",
-    techTools: {
-      javascript: "JavaScript",
-      bootstrap: "HTML",
-      react: "CSS",
-    },
-    projectImage: "./image/tvshow.webp",
-    liveLink: "https://john-kibirige.github.io/tv-maze/",
-    liveSources: "https://github.com/melashu/Tv-Show",
-  },
-  {
     projectTitle: "Bookstore",
     projectDiscription:
-      "Bookstore is a web app which enable the user to record books by title and their author to the exteranl API.",
+      "This app was built using react. It enables users to add new books to the API. Users can track their reading status and can filter books by category.",
     detailDescription:
       "Bookstore is a web app which enable the user to record books by title and their author to the exteranl API. Users can also track their reading progress.",
     techTools: {
-      javascript: "React",
+      react: "React",
+      redux: "Redux",
       bootstrap: "CSS",
       react: "JSX",
     },
@@ -48,9 +19,9 @@ const projectList = [
   {
     projectTitle: "kCinema",
     projectDiscription:
-      " kCinema is a movie store app. It is built using react, react-redux, axios, CSS, and using external APIs.",
+      " kCinema is a movie store app. The app was built using react, react-redux, Axios, CSS, and external APIs.I used Axios to fetch remote API dates.",
     detailDescription:
-      "kCinema is a movie store app. It is built using react, react-redux, axios, CSS, and using external APIs.I use Axios to fetch remote API dates. It is connected with www.omdbapi.com/ API (It provides information about movies). The app enables us to filter our serious movies using a dropdown button. Users can search for any movie by entering the movie title in the search box. Users can see the details of each movie. Users can access both English and Amharic movies.",
+      "kCinema is a movie store app. The app was built using react, react-redux, Axios, CSS, and external APIs.I used Axios to fetch remote API dates. The app enables users to filter our serious movies using a dropdown button. Users can search for any film by entering the movie title in the search box. Users can see the details of each movie.",
     techTools: {
       javascript: "JavaScript",
       bootstrap: "Bootstrap",
@@ -62,43 +33,27 @@ const projectList = [
     liveSources: "https://github.com/melashu/kCinema",
   },
   {
-    projectTitle: "Space-Travelers-Hub",
+    projectTitle: "Space Travelers Hub",
     projectDiscription:
-      " This is a web application for a company that provides commercial and scientific space travel services. ",
+      "It is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
     detailDescription:
-      "This is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+      "It is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
     techTools: {
-      html: "HTML",
-      javascript: "JavaScript",
-      bootstrap: "Bootstrap",
       react: "React",
+      redux: "Redux",
+      bootstrap: "Bootstrap",
     },
     projectImage: "./image/space.webp",
     liveLink: "https://spacehubs.netlify.app/",
     liveSources: "https://github.com/melashu/Space-Travelers-Hub",
   },
-  {
-    projectTitle: "Fruit Info",
-    projectDiscription:
-      " Fruitinfo is integrated with Fruityvice API. Fruitinfo is provides data for all kinds of fruit!  ",
-    detailDescription:
-      "Fruitinfo is integrated with Fruityvice API. Fruitinfo is provides data for all kinds of fruit! Users can use Fruitinfo to find out interesting information about fruit and educate yourself.",
-    techTools: {
-      react: "React",
-      scss: "SCSS",
-      redux: "Redux",
-      mui: "Material UI",
-    },
-    projectImage: "./image/fruit.webp",
-    liveLink: "https://github.com/melashu/Fruitinfo/tree/feature-branch",
-    liveSources: "https://github.com/melashu/Fruitinfo/tree/feature-branch",
-  },
+
   {
     projectTitle: "Live Crypto",
     projectDiscription:
-      " Live crypto is a real-time crypto pricing predication app. It fetch real-time data from CoinCap API. ",
+      "Live Crypto is a real-time crypto pricing prediction app by fetches data from CoinCap API. Live Crypto provides information to users by collecting data from thousands of markets.",
     detailDescription:
-      "Live crypto is a real-time crypto pricing predication app. It display the real-time crypto prices by fetch data from CoinCap API. It provide information to users by collecting exchange data from thousands of markets, Users can access transparent and accurate data on asset price and availability.",
+      "Live Crypto is a real-time crypto pricing prediction app by fetches data from CoinCap API. Live Crypto provides information to users by collecting exchange data from thousands of markets. Users can access transparent and accurate data on asset price and availability.",
     techTools: {
       react: "React",
       scss: "SCSS",
@@ -110,20 +65,19 @@ const projectList = [
     liveSources: "https://github.com/melashu/livecrypto",
   },
   {
-    projectTitle: "MDS Back office",
+    projectTitle: "My Recipe",
     projectDiscription:
-      " MDS admin back office is a sales management admin app that enables the admins to manage everything.",
+      "The app will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.",
     detailDescription:
-      "MDS admin back office is a sales management admin dashboard app that enables the administrator, to add and remove users, can track deliveries and orders, can add and remove products, view details of each product and each user, check the company's revenue and handle notifications and messages.",
+      "This recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. The application is built using the Ruby on Rails framework.",
     techTools: {
-      react: "React",
-      scss: "SCSS",
-      redux: "Redux",
-      mui: "Material UI",
+      ruby: "Ruby on Rails",
+      poatgres: "Postgress",
+      bootstrap: "Bootstrap",
     },
-    projectImage: "./image/mds-light.webp",
-    liveLink: "https://mdsadmin.netlify.app/",
-    liveSources: "https://github.com/melashu/Salse-management-admin-Backoffice",
+    projectImage: "./image/recipe1.webp",
+    liveLink: "https://recipe-nn14.onrender.com/recipes",
+    liveSources: "https://github.com/melashu/Recipe-app",
   },
 ];
 const popup = document.getElementById("popup");
