@@ -158,9 +158,6 @@ nav li {
  backface-visibility: hidden;
 } 
 
-
-
-
 .social-media {
   order: -1;
   align-self: flex-start;
@@ -178,12 +175,10 @@ nav li {
   font-weight: 400;
   font-size: 72px;
   line-height: 81.8px;
-
-  	white-space: nowrap;
+  white-space: nowrap;
 	overflow: hidden;
-	border-right: 4px solid #212121;
-	animation: counter 1s step-start infinite, 
-    letter 5s steps(18) alternate infinite;
+	animation: counter 1s step-start, 
+    letter 5s steps(18) alternate;
 }
 
 
@@ -398,6 +393,8 @@ text-align: left;
   padding: 15px 15px;
   height: auto;
   margin: 0 auto;
+  padding-top: 130px;
+
 }
 
 .about-skill li:hover{
