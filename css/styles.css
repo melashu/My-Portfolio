@@ -158,8 +158,8 @@ display: none;
   margin: 8px 0;
 
   overflow: hidden;
-	animation: cursor 2s step-start, 
-    text 5s steps(18) alternate;
+	animation: cursor 2s step-start infinite, 
+    text 5s steps(18) alternate infinite;
   white-space: nowrap;
 }
 
@@ -503,8 +503,8 @@ text-align: center;
 
 .about-me-button:hover {
   border: 1px solid #f55800;
-  background-color: #fff5e1;
-  color: #f55800;
+  transform: scale(1.2);
+
 }
 
 .about-me-button:disabled {
