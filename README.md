@@ -38,11 +38,6 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/melashu/My-Portfolio/issues).
 
-## Collaborator 
-
-- [Ralph03](https://github.com/eerapheal)
-- [Shuja](https://github.com/shuja-shah)
-
 ## Acknowledgments 
 - To My coding partner  [Ralph03](https://github.com/eerapheal) and  [Shuja](https://github.com/shuja-shah)
 - To Microverse Teams
