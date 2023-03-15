@@ -292,6 +292,7 @@ nav li {
   font-size: 20px;
   line-height: 28px;
   color: #091e42;
+  text-align: left;
 }
 
 .card-section {
@@ -331,6 +332,9 @@ nav li {
   min-height: 280px;
 }
 
+.card-description{
+  text-align: left;
+}
 
 .card:hover {
   transform: scale(0.95);
@@ -390,6 +394,7 @@ nav li {
   font-size: 20px;
   line-height: 32px;
   width: 686px;
+  text-align: left;
 }
 .skill-me-title {
   margin-left: 142px;
