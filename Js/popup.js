@@ -1,6 +1,21 @@
 /* eslint-disable */
 const projectList = [
   {
+    projectTitle: "Tv Show",
+    projectDiscription:
+      "This app shows a series of TV shows from a TV-maze API. Users can put their comments and like on the show they want.",
+    detailDescription:
+      "This app shows a series of TV shows from a TV-maze API. Users can put their comments and like on the show they want. Users can check the previous comments and the number of likes given by others.",
+    techTools: {
+      javascript: "JavaScript",
+      css: "CSS",
+      html: "HTML",
+    },
+    projectImage: "./image/tvshow.webp",
+    liveLink: "https://john-kibirige.github.io/tv-maze/",
+    liveSources: "https://github.com/melashu/Tv-Show",
+  },
+  {
     projectTitle: "Bookstore",
     projectDiscription:
       "This app was built using react. It enables users to add new books to the API. Users can track their reading status and can filter books by category.",
@@ -10,7 +25,6 @@ const projectList = [
       react: "React",
       redux: "Redux",
       bootstrap: "CSS",
-      react: "JSX",
     },
     projectImage: "./image/bookstore.webp",
     liveLink: "https://bookstoreapps.netlify.app/",
@@ -35,7 +49,7 @@ const projectList = [
   {
     projectTitle: "Space Travelers Hub",
     projectDiscription:
-      "It is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
+      "It is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets.",
     detailDescription:
       "It is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.",
     techTools: {
@@ -51,7 +65,7 @@ const projectList = [
   {
     projectTitle: "Live Crypto",
     projectDiscription:
-      "Live Crypto is a real-time crypto pricing prediction app by fetches data from CoinCap API. Live Crypto provides information to users by collecting data from thousands of markets.",
+      "Live Crypto is a real-time crypto pricing prediction app that provides information to users by collecting data from thousands of markets.",
     detailDescription:
       "Live Crypto is a real-time crypto pricing prediction app by fetches data from CoinCap API. Live Crypto provides information to users by collecting exchange data from thousands of markets. Users can access transparent and accurate data on asset price and availability.",
     techTools: {
@@ -67,7 +81,7 @@ const projectList = [
   {
     projectTitle: "My Recipe",
     projectDiscription:
-      "The app will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.",
+      "The app will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have.",
     detailDescription:
       "This recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. The application is built using the Ruby on Rails framework.",
     techTools: {

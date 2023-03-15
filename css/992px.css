@@ -1,0 +1,54 @@
+.my-profile {
+  display: block;
+  padding: 80px 0;
+  
+}
+.my-profile img {
+  width: 280px;
+  height: 280px;
+}
+
+.work-header {
+  display: flex;
+  justify-self: start;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 24px;
+}
+
+.work-header hr {
+  width: 100%;
+}
+
+.story-section {
+  flex: 4;
+}
+
+
+.card-section {
+      width: 98%;
+}
+
+
+
+.about-me {
+  padding: 60px 0;
+}
+
+.about-skill {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.form input {
+  width: 684px;
+}
+
+.form input:focus {
+  border: none;
+}
+
+.form textarea {
+  height: 114px;
+  width: 684px;
+}

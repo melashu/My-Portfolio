@@ -1,10 +1,15 @@
 body {
-  width: 100vw;
+  /* width: 100vw; */
   overflow-x: hidden;
+  width: 100%;
 }
 
 .menu-icon {
   display: none;
+}
+
+main {
+  width: 100%;
 }
 
 .popup {
@@ -61,8 +66,8 @@ body {
 
 .main-header {
   height: 48px;
-  padding: 16px 25px 16px 0;
-  width: 99vw;
+  padding: 16px 0 16px 0;
+  width: 100%;
   position: sticky;
   top: 0;
   left: 0;
@@ -78,23 +83,45 @@ body {
   text-align: center;
   vertical-align: middle;
   letter-spacing: 0.03em;
-    animation: shake 2s;
- animation-iteration-count: infinite;
- backface-visibility: hidden;
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+  backface-visibility: hidden;
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
 nav ul {
@@ -115,7 +142,6 @@ nav li {
 .nav-bar li:hover {
   border-bottom: #f55800 1px solid;
   cursor: pointer;
-  
 }
 
 .nav-bar a {
@@ -132,34 +158,31 @@ nav li {
 
 .headline {
   height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: 87px;
-  padding: 0 36px;
+  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: baseline; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(12, 1fr); */
+  gap: 45px;
+  padding: 36px;
 }
 
 .headline-top-section {
   display: flex;
   flex-direction: column;
-  width: 560px;
+  width: 550px;
   padding: 120px 0;
 }
 
-.my-profile{
- display: block;
- margin: 5rem 5rem;
+.my-profile img:hover {
+  animation: shake 2s;
+  animation-iteration-count: infinite;
+  backface-visibility: hidden;
 }
 
- .my-profile img:hover{
-  animation: shake 2s;
- animation-iteration-count: infinite;
- backface-visibility: hidden;
-} 
-
 .social-media {
-  order: -1;
   align-self: flex-start;
-  display: flex;
   flex-direction: column;
   padding: 250px 0;
   justify-content: center;
@@ -174,24 +197,23 @@ nav li {
   font-size: 72px;
   line-height: 81.8px;
   white-space: nowrap;
-	overflow: hidden;
-	animation: counter 1s step-start, 
-    letter 5s steps(18) alternate;
+  overflow: hidden;
+  animation: counter 1s step-start, letter 5s steps(18) alternate;
 }
 
-
 @keyframes counter {
-	0%, 100% { 
-    border-color: #212121; 
+  0%,
+  100% {
+    border-color: #212121;
   }
 }
 
 @keyframes letter {
-	0% { 
+  0% {
     width: 5.25ch;
   }
-	100% { 
-    width: 13.5ch; 
+  100% {
+    width: 13.5ch;
   }
 }
 .supporting {
@@ -215,13 +237,9 @@ nav li {
 }
 
 .work-header {
-  display: flex;
-  justify-self: start;
-  justify-content: center;
-  align-items: baseline;
-  column-gap: 24px;
   margin-top: 20px;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .work-header .title {
@@ -230,7 +248,6 @@ nav li {
 }
 
 .work-header hr {
-  width: 794px;
   margin: 8px 0;
   height: 1px;
   padding-right: 100px;
@@ -257,7 +274,7 @@ nav li {
 }
 
 .story-section {
-  flex: 4;
+  flex: 7;
   display: flex;
   flex-direction: column;
   row-gap: 24px;
@@ -281,7 +298,7 @@ nav li {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(385px, 1fr));
   gap: 24px;
-  width: 98%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -312,10 +329,6 @@ nav li {
 .card-body {
   margin: 15px;
   min-height: 280px;
-}
-
-.card-body img{
-  width: 98%;
 }
 
 
@@ -357,9 +370,7 @@ nav li {
 }
 
 .about-me {
-  background-image: url("../image/desk-about-me.png");
   background-position: right 1px top;
-  padding: 130px 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: justify;
@@ -380,9 +391,9 @@ nav li {
   line-height: 32px;
   width: 686px;
 }
-.skill-me-title{
-margin-left: 142px;
-text-align: left;
+.skill-me-title {
+  margin-left: 142px;
+  text-align: left;
 }
 .about-skill {
   display: flex;
@@ -390,14 +401,10 @@ text-align: left;
   gap: 80px;
   padding: 15px 15px;
   height: auto;
-  margin: 0 auto;
-  padding-top: 130px;
-
 }
 
-.about-skill li:hover{
+.about-skill li:hover {
   background-color: #f55800;
-
 }
 .form-section {
   display: grid;
@@ -413,19 +420,6 @@ text-align: left;
 
 .form {
   grid-column: 6/13;
-}
-
-.form input {
-  width: 684px;
-}
-
-.form input:focus {
-  border: none;
-}
-
-.form textarea {
-  height: 114px;
-  width: 684px;
 }
 
 .submit-button {
