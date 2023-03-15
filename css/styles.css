@@ -274,7 +274,7 @@ display: none;
   font-size: 20px;
   line-height: 24px;
   color: #091e42;
-  text-align: center;
+  text-align: left;
 }
 
 .tools {
@@ -351,6 +351,7 @@ display: none;
 }
 .card-body img {
   width: 98%;
+  height: fit-content;
 }
 
 .card-title {
@@ -371,7 +372,7 @@ display: none;
   color: #172b4d;
   letter-spacing: 0.03em;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -474,7 +475,7 @@ text-align: center;
   line-height: 24px;
   color: #f4f5f7;
   letter-spacing: 0.03em;
-  text-align: center;
+  text-align: left;
 }
 
 .skill-list {
@@ -575,7 +576,7 @@ text-align: center;
 
 .form input {
   box-sizing: border-box;
-  width: 327px;
+  width: 80%;
   height: 48px;
   padding: 5px;
   border-top: none;
@@ -591,7 +592,7 @@ text-align: center;
 
 .form textarea {
   padding: 12px;
-  width: 327px;
+  width: 80%;
   color: #3c3a39;
   font-weight: 500;
   height: 114px;
