@@ -1,5 +1,5 @@
 # My-Portfolio
-> This is my second project in Microverse journy 
+> This is my personal portfolio webshite that showcase my previous work!
 
 ## **The project Built with**
 
