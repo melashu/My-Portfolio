@@ -79,21 +79,6 @@ const projectList = [
     liveSources: "https://github.com/melashu/livecrypto",
   },
   {
-    projectTitle: "My Recipe",
-    projectDiscription:
-      "The app will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have.",
-    detailDescription:
-      "This recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. The application is built using the Ruby on Rails framework.",
-    techTools: {
-      ruby: "Ruby on Rails",
-      poatgres: "Postgress",
-      bootstrap: "Bootstrap",
-    },
-    projectImage: "./image/recipe1.webp",
-    liveLink: "https://recipe-nn14.onrender.com/recipes",
-    liveSources: "https://github.com/melashu/Recipe-app",
-  },
-  {
     projectTitle: "Btracker",
     projectDiscription:
       "This is mobile first a web app where you can manage your budget and you have a list of transactions associated with a category.",
@@ -108,6 +93,21 @@ const projectList = [
     liveLink: "https://github.com/melashu/Btracker",
     liveSources: "https://github.com/melashu/Btracker",
   },
+  {
+    projectTitle: "My Recipe",
+    projectDiscription:
+      "The app will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have.",
+    detailDescription:
+      "This recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. The application is built using the Ruby on Rails framework.",
+    techTools: {
+      ruby: "Ruby on Rails",
+      poatgres: "Postgress",
+      bootstrap: "Bootstrap",
+    },
+    projectImage: "./image/recipe1.webp",
+    liveLink: "https://recipe-nn14.onrender.com/recipes",
+    liveSources: "https://github.com/melashu/Recipe-app",
+  }
 ];
 const popup = document.getElementById("popup");
 const cardSection = document.querySelector(".card-section");
