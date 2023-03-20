@@ -1,3 +1,6 @@
+.work-header hr{
+  width: 60%;
+}
 .my-profile img {
   width: 400px;
   height: 400px;
@@ -5,6 +8,5 @@
 
 
 .about-me {
-  background-image: url("../image/desk-about-me.png");
   background-position: right 1px top;
 }

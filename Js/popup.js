@@ -93,6 +93,21 @@ const projectList = [
     liveLink: "https://recipe-nn14.onrender.com/recipes",
     liveSources: "https://github.com/melashu/Recipe-app",
   },
+  {
+    projectTitle: "Btracker",
+    projectDiscription:
+      "This is mobile first a web app where you can manage your budget and you have a list of transactions associated with a category.",
+    detailDescription:
+      "This is mobile first a web app where you can manage your budget and you have a list of transactions associated with a category. so that you can see how much money you spent and on what. The application built with Ruby on Rails.",
+    techTools: {
+      ruby: "Ruby on Rails",
+      poatgres: "Postgress",
+      bootstrap: "Bootstrap",
+    },
+    projectImage: "./image/Btracker.webp",
+    liveLink: "https://github.com/melashu/Btracker",
+    liveSources: "https://github.com/melashu/Btracker",
+  },
 ];
 const popup = document.getElementById("popup");
 const cardSection = document.querySelector(".card-section");
@@ -186,7 +201,7 @@ storySection.innerHTML = `
                     <button type="button" class="story-button" data-id="0">See Project</button>
                                   </div>
  `;
-
+{/* <p class="card-description">${eachCard.projectDiscription}</p>; */}
 storySection.addEventListener("click", (event) => {
   if (event.target.classList.contains("story-button")) {
     popupWindow(projectList.length - 1);
@@ -207,9 +222,7 @@ for (let index = projectList.length - 1; index >= 0; index -= 1) {
                     </div>
                    <div>
                         <h2 class="card-title">${eachCard.projectTitle}</h2>
-                        <p class="card-description">
-                            ${eachCard.projectDiscription}
-                        </p>
+                        
                         <ul class="tech-tools">
                         
                         ${Object.values(eachCard.techTools).map(
